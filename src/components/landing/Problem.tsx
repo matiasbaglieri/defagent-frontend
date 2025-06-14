@@ -2,24 +2,7 @@
 import { XCircle, Watch, Puzzle } from "lucide-react";
 import { motion } from "framer-motion";
 import { AnimatedSection } from "./AnimatedSection";
-
-const problems = [
-  {
-    icon: Puzzle,
-    title: "Fragmented Data",
-    description: "80% of DLA’s suppliers are small businesses, causing supply chain vulnerabilities and siloed information across proprietary systems.",
-  },
-  {
-    icon: Watch,
-    title: "Delayed Threat Response",
-    description: "Manual fuel logistics planning—'stubby pencil math'—slows crisis response by over 8 minutes, a critical delay in high-stakes scenarios.",
-  },
-  {
-    icon: XCircle,
-    title: "Interoperability Failures",
-    description: "Legacy systems block modern drone and sensor integration, compromising blue-force tracking and mission coordination.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -27,15 +10,35 @@ const cardVariants = {
 };
 
 export const Problem = () => {
+  const { t } = useTranslation();
+
+  const problems = [
+    {
+      icon: Puzzle,
+      title: t("problem1Title"),
+      description: t("problem1Desc"),
+    },
+    {
+      icon: Watch,
+      title: t("problem2Title"),
+      description: t("problem2Desc"),
+    },
+    {
+      icon: XCircle,
+      title: t("problem3Title"),
+      description: t("problem3Desc"),
+    },
+  ];
+
   return (
     <AnimatedSection id="problem" stagger>
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Critical Gaps in Multi-Domain Logistics
+            {t("problemTitle")}
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
-            Today's battlefields are data-rich but wisdom-poor. Disconnected tools create dangerous delays and vulnerabilities.
+            {t("problemSubtitle")}
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

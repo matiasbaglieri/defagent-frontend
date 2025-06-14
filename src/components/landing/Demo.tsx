@@ -1,31 +1,34 @@
 
 import { AnimatedSection } from "./AnimatedSection";
-
-const steps = [
-    {
-        title: "1. Sense",
-        description: "A SkyFi SAR satellite detects critical bridge damage and automatically feeds a Cursor-on-Target (CoT) alert to FreeTAKServer.",
-    },
-    {
-        title: "2. Evaluate",
-        description: "AI cross-references DLA fuel data and EW threat maps, instantly plotting a safer, optimized route for the convoy.",
-    },
-    {
-        title: "3. Effect",
-        description: "A medevac request is sent via secure TAK-Chat while Close Air Support is coordinated over a live WinTAK 3D map.",
-    }
-]
+import { useTranslation } from "react-i18next";
 
 export const Demo = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+        title: t("demoStep1Title"),
+        description: t("demoStep1Desc"),
+    },
+    {
+        title: t("demoStep2Title"),
+        description: t("demoStep2Desc"),
+    },
+    {
+        title: t("demoStep3Title"),
+        description: t("demoStep3Desc"),
+    }
+  ];
+
   return (
     <AnimatedSection id="demo">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Live Demo: Convoy Protection Workflow
+            {t("demoTitle")}
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
-            See how DefAgent turns raw data into decisive action in seconds.
+            {t("demoSubtitle")}
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
