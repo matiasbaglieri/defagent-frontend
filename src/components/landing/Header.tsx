@@ -25,7 +25,11 @@ export const Header = () => {
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <Button>Contact Sales</Button>
+          <Button asChild>
+            <a href="https://api.whatsapp.com/send?text=i want to contact sales of defagent &phone=5491164616122" target="_blank" rel="noopener noreferrer">
+              Contact Sales
+            </a>
+          </Button>
         </div>
       </div>
     </header>
