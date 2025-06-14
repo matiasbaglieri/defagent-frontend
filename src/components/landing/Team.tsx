@@ -3,7 +3,7 @@ import { AnimatedSection } from "./AnimatedSection";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const teamMembers = [
-    { name: "CTO", role: "Ex-Google AI; FreeTAKServer Contributor" },
+    { name: "CTO", role: "Founder x3 Startups, Expert in IA and Blockchain", image: "/lovable-uploads/8a9a0c68-8f5a-4de8-89e9-6adb3a22580a.png" },
     { name: "CEO", role: "Former CamGroupDefense, Technomeca, Crescent Hill Capital", image: "/lovable-uploads/0d151261-672f-433d-8921-4f5e6c232e9b.png" }
 ];
 
