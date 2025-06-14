@@ -7,6 +7,7 @@ import { Demo } from "@/components/landing/Demo";
 import { Team } from "@/components/landing/Team";
 import { Footer } from "@/components/landing/Footer";
 import { AnimatedSection } from "@/components/landing/AnimatedSection";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
@@ -35,9 +36,11 @@ const CtaSection = () => (
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
             Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.
         </p>
-        <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
-            Request a Demo
-        </button>
+        <Button size="lg" asChild>
+            <a href="https://api.whatsapp.com/send?text=request access to defagent&phone=5491164616122" target="_blank" rel="noopener noreferrer">
+                Request a Demo
+            </a>
+        </Button>
       </div>
     </div>
   </AnimatedSection>

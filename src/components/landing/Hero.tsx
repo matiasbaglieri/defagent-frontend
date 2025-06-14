@@ -16,8 +16,10 @@ export const Hero = () => {
           <Button size="lg" asChild>
             <a href="#demo">View Demo</a>
           </Button>
-          <Button size="lg" variant="outline">
-            Request Access
+          <Button size="lg" variant="outline" asChild>
+            <a href="https://api.whatsapp.com/send?text=request access to defagent&phone=5491164616122" target="_blank" rel="noopener noreferrer">
+              Request Access
+            </a>
           </Button>
         </div>
       </div>
