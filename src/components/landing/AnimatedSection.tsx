@@ -7,9 +7,10 @@ interface AnimatedSectionProps {
   children: React.ReactNode;
   className?: string;
   stagger?: boolean;
+  id?: string;
 }
 
-export const AnimatedSection = ({ children, className, stagger = false }: AnimatedSectionProps) => {
+export const AnimatedSection = ({ children, className, stagger = false, id }: AnimatedSectionProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
@@ -29,6 +30,7 @@ export const AnimatedSection = ({ children, className, stagger = false }: Animat
 
   return (
     <motion.section
+      id={id}
       ref={ref}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
