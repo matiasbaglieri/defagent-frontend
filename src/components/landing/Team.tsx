@@ -4,9 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const teamMembers = [
     { name: "CTO", role: "Ex-Google AI; FreeTAKServer Contributor" },
-    { name: "COO", role: "Former SOCOM J6; Deployed TAK in 11 conflict zones" },
-    { name: "Advisor", role: "SkyFi's Imagery Architect (ex-NASA/FAA)" },
-    { name: "Advisor", role: "FreeTAKTeam Core Developer" }
+    { name: "CEO", role: "Former CamGroupDefense, Technomeca, Crescent Hill Capital", image: "/lovable-uploads/0d151261-672f-433d-8921-4f5e6c232e9b.png" }
 ];
 
 
@@ -22,10 +20,11 @@ export const Team = () => {
                         Our team blends deep operational experience with world-class engineering talent.
                     </p>
                 </div>
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
                     {teamMembers.map((member) => (
                         <div key={member.name} className="text-center">
                             <Avatar className="w-24 h-24 mx-auto mb-4 border-2 border-primary">
+                                <AvatarImage src={(member as any).image} alt={member.name} />
                                 <AvatarFallback>{member.name.substring(0,2)}</AvatarFallback>
                             </Avatar>
                             <h3 className="text-xl font-bold">{member.name}</h3>
