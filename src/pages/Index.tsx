@@ -8,6 +8,7 @@ import { Team } from "@/components/landing/Team";
 import { Footer } from "@/components/landing/Footer";
 import { AnimatedSection } from "@/components/landing/AnimatedSection";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
   return (
@@ -26,24 +27,27 @@ const Index = () => {
   );
 };
 
-const CtaSection = () => (
-  <AnimatedSection>
-    <div className="container">
-      <div className="bg-card border border-border rounded-lg p-10 md:p-16 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Ready to Dominate the Battlespace?
-        </h2>
-        <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-            Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.
-        </p>
-        <Button size="lg" asChild>
-            <a href="https://api.whatsapp.com/send?text=request access to defagent&phone=5491164616122" target="_blank" rel="noopener noreferrer">
-                Request a Demo
-            </a>
-        </Button>
+const CtaSection = () => {
+  const { t } = useTranslation();
+  return (
+    <AnimatedSection>
+      <div className="container">
+        <div className="bg-card border border-border rounded-lg p-10 md:p-16 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+              {t('ctaTitle')}
+          </h2>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
+              {t('ctaSubtitle')}
+          </p>
+          <Button size="lg" asChild>
+              <a href="https://api.whatsapp.com/send?text=request access to defagent&phone=5491164616122" target="_blank" rel="noopener noreferrer">
+                  {t('ctaButton')}
+              </a>
+          </Button>
+        </div>
       </div>
-    </div>
-  </AnimatedSection>
-);
+    </AnimatedSection>
+  )
+};
 
 export default Index;

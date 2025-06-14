@@ -1,15 +1,19 @@
 
 import { Button } from "@/components/ui/button";
 import { Shield } from "lucide-react";
-
-const navLinks = [
-  { id: "problem", label: "Problem" },
-  { id: "solution", label: "Solution" },
-  { id: "demo", label: "Demo" },
-  { id: "team", label: "Team" },
-];
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 
 export const Header = () => {
+  const { t } = useTranslation();
+
+  const navLinks = [
+    { id: "problem", label: t("navProblem") },
+    { id: "solution", label: t("navSolution") },
+    { id: "demo", label: t("navDemo") },
+    { id: "team", label: t("navTeam") },
+  ];
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
@@ -24,10 +28,11 @@ export const Header = () => {
             </a>
           ))}
         </nav>
-        <div className="flex flex-1 items-center justify-end space-x-4">
+        <div className="flex flex-1 items-center justify-end space-x-2">
+          <LanguageSwitcher />
           <Button asChild>
             <a href="https://api.whatsapp.com/send?text=i want to contact sales of defagent &phone=5491164616122" target="_blank" rel="noopener noreferrer">
-              Contact Sales
+              {t("contactSales")}
             </a>
           </Button>
         </div>
