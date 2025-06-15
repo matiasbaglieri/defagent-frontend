@@ -1,4 +1,3 @@
-
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -51,6 +50,8 @@ const resources = {
       teamMember1Desc: "Founder x3 Startups, Expert in IA and Blockchain",
       teamMember2Name: "CEO",
       teamMember2Desc: "Former CamGroupDefense, Technomeca, Crescent Hill Capital",
+      teamMember3Name: "CAO",
+      teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
       // CTA
       ctaTitle: "Ready to Dominate the Battlespace?",
       ctaSubtitle: "Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.",
@@ -106,6 +107,8 @@ const resources = {
       teamMember1Desc: "Fundador de 3 Startups, Experto en IA y Blockchain",
       teamMember2Name: "CEO",
       teamMember2Desc: "Ex CamGroupDefense, Technomeca, Crescent Hill Capital",
+      teamMember3Name: "CAO",
+      teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
       // CTA
       ctaTitle: "¿Listo para dominar el campo de batalla?",
       ctaSubtitle: "Integre sus fuerzas con la próxima generación de C2 e inteligencia. Póngase en contacto para programar una demostración privada para su unidad.",
@@ -161,6 +164,8 @@ const resources = {
       teamMember1Desc: "Fondateur de 3 startups, expert en IA et Blockchain",
       teamMember2Name: "CEO",
       teamMember2Desc: "Ancien de CamGroupDefense, Technomeca, Crescent Hill Capital",
+      teamMember3Name: "CAO",
+      teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
       // CTA
       ctaTitle: "Prêt à dominer l'espace de bataille ?",
       ctaSubtitle: "Intégrez vos forces à la nouvelle génération de C2 et de renseignement. Contactez-nous pour planifier une démonstration privée pour votre unité.",
@@ -216,6 +221,8 @@ const resources = {
       teamMember1Desc: "Fundador de 3 Startups, Especialista em IA e Blockchain",
       teamMember2Name: "CEO",
       teamMember2Desc: "Ex-CamGroupDefense, Technomeca, Crescent Hill Capital",
+      teamMember3Name: "CAO",
+      teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
       // CTA
       ctaTitle: "Pronto para dominar o espaço de batalha?",
       ctaSubtitle: "Integre suas forças com a próxima geração de C2 e inteligência. Entre em contato para agendar uma demonstração privada para sua unidade.",
@@ -271,6 +278,8 @@ const resources = {
       teamMember1Desc: "מייסד 3 סטארטאפים, מומחה בבינה מלאכותית ובלוקצ'יין",
       teamMember2Name: "CEO",
       teamMember2Desc: "לשעבר CamGroupDefense, Technomeca, Crescent Hill Capital",
+      teamMember3Name: "CAO",
+      teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
       // CTA
       ctaTitle: "מוכן לשלוט בשדה הקרב?",
       ctaSubtitle: "שלב את כוחותיך עם הדור הבא של C2 ומודיעין. צור קשר לקביעת הדגמה פרטית ליחידה שלך.",

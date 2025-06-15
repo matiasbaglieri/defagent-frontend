@@ -1,4 +1,3 @@
-
 import { AnimatedSection } from "./AnimatedSection";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useTranslation } from "react-i18next";
@@ -8,7 +7,8 @@ export const Team = () => {
 
     const teamMembers = [
         { name: t("teamMember1Name"), role: t("teamMember1Desc"), image: "/lovable-uploads/8a9a0c68-8f5a-4de8-89e9-6adb3a22580a.png" },
-        { name: t("teamMember2Name"), role: t("teamMember2Desc"), image: "/lovable-uploads/0d151261-672f-433d-8921-4f5e6c232e9b.png" }
+        { name: t("teamMember2Name"), role: t("teamMember2Desc"), image: "/lovable-uploads/0d151261-672f-433d-8921-4f5e6c232e9b.png" },
+        { name: t("teamMember3Name"), role: t("teamMember3Desc"), image: "/lovable-uploads/1596672846729.jpeg" }
     ];
 
     return (
@@ -22,7 +22,7 @@ export const Team = () => {
                         {t("teamSubtitle")}
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
                     {teamMembers.map((member) => (
                         <div key={member.name} className="text-center">
                             <Avatar className="w-24 h-24 mx-auto mb-4 border-2 border-primary">
