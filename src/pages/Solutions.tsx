@@ -29,10 +29,97 @@ export default function Solutions() {
     },
   ];
 
+  const steps = [
+    {
+      title: t("demoStep1Title"),
+      description: t("demoStep1Desc"),
+    },
+    {
+      title: t("demoStep2Title"),
+      description: t("demoStep2Desc"),
+    },
+    {
+      title: t("demoStep3Title"),
+      description: t("demoStep3Desc"),
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gray-950">
       <Header />
       <main>
+
+        {/* TAK-X Solution Section */}
+        <section className="bg-gray-900 text-white py-20 px-4 md:px-12">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 mb-4">
+                {t('solutionTitle')}
+              </h2>
+              <p className="text-lg text-gray-300">
+                {t('solutionSubtitle')}
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-2 text-cyan-300">{t('solution1Title')}</h3>
+                  <p className="text-gray-300">{t('solution1Desc')}</p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-2 text-cyan-300">{t('solution2Title')}</h3>
+                  <p className="text-gray-300">{t('solution2Desc')}</p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-2 text-cyan-300">{t('solution3Title')}</h3>
+                  <p className="text-gray-300">{t('solution3Desc')}</p>
+                </div>
+              </div>
+              <div className="grid gap-4">
+                <img src="/lovable-uploads/5f644374-fe18-4029-8bad-62c8d6679f27.png" alt="Change Detection UI" className="rounded-lg shadow-2xl border border-cyan-600" />
+                <img src="/lovable-uploads/56d9ff7a-2a0e-4889-8353-5754091d7632.png" alt="Order New Image UI" className="rounded-lg shadow-2xl border border-cyan-600" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Demo Section */}
+        <section className="bg-gray-950 text-white py-20 px-4 md:px-12">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 mb-4">
+                {t("demoTitle")}
+              </h2>
+              <p className="text-lg text-gray-300">
+                {t("demoSubtitle")}
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <img src="/lovable-uploads/62413556-faac-4f61-a0bc-ec2bf657c0fa.png" alt="GoTAK Trackers UI" className="rounded-lg shadow-2xl border border-cyan-600" />
+              </div>
+              <div className="space-y-8">
+                {steps.map((step, index) => (
+                  <div key={index} className="flex">
+                    <div className="flex flex-col items-center mr-4">
+                      <div>
+                        <div className="flex items-center justify-center w-10 h-10 border-2 border-cyan-400 rounded-full">
+                          <div className="w-6 h-6 bg-cyan-400 rounded-full" />
+                        </div>
+                      </div>
+                      {index < steps.length - 1 && <div className="w-px h-full bg-cyan-400/30" />}
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-cyan-300 mb-1">{step.title}</h3>
+                      <p className="text-gray-300">{step.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Solutions Platform Section */}
         <section className="bg-gray-950 text-white py-16 px-4 md:px-12">
           <div className="max-w-7xl mx-auto">
             <h1 className="text-4xl font-bold mb-4 text-center text-cyan-400">
