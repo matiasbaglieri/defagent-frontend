@@ -17,6 +17,7 @@ export default {
   navCoreValues: "Valores Fundamentales",
   navEvents: "Eventos",
   navNewsMedia: "Noticias y Medios",
+  navCompliance: "Cumplimiento",
   contactSales: "Contactar Ventas",
   // Hero
   heroTitle: "Fusionando logística impulsada por IA con inteligencia terrestre en tiempo real",
@@ -236,4 +237,19 @@ export default {
   partner5Desc: "Habilitando conectividad SATCOM y fuera de red para despliegues de DefAgent usando comunicaciones de borde y puente satelital.",
   partner6Name: "VulnCheck (prospectivo)",
   partner6Desc: "Explorando iniciativas conjuntas en análisis de exploits y enriquecimiento de CVE para respuesta soberana a amenazas cibernéticas.",
+  // Compliance Page
+  complianceTitle: "Cumplimiento y Garantía de Seguridad",
+  complianceSubtitle: "DefAgent está construido para exceder los estándares de seguridad, regulatorios y operacionales requeridos por misiones gubernamentales, de defensa e infraestructura crítica.",
+  compliance1Title: "NIST 800-171 / 800-53",
+  compliance1Desc: "DefAgent se alinea con los controles de seguridad NIST para sistemas de información federales y organizaciones, asegurando confidencialidad, integridad y disponibilidad de datos de misión.",
+  compliance2Title: "Estándares de Interoperabilidad de la OTAN",
+  compliance2Desc: "Diseñado para colaboración fluida a través de comandos de la OTAN y redes de defensa aliadas, incluyendo cumplimiento TAK, C2/C4I y STANAG.",
+  compliance3Title: "FIPS 140-2 Nivel 3",
+  compliance3Desc: "Todo el hardware encriptado y módulos de gestión de claves cumplen con estándares FIPS 140-2 Nivel 3, validados para integridad criptográfica y resistencia a manipulación.",
+  compliance4Title: "Preparación CMMC",
+  compliance4Desc: "DefAgent está diseñado con preparación para Certificación de Madurez de Ciberseguridad (CMMC) Nivel 2+ para contratistas de defensa y proveedores críticos.",
+  compliance5Title: "GDPR / Soberanía de Datos",
+  compliance5Desc: "Soporta localidad de datos, hosting soberano y encriptación gestionada por el cliente para cumplir estándares globales de privacidad y protección de datos.",
+  compliance6Title: "Validación Personalizada de Red Team",
+  compliance6Desc: "Todos los sistemas son probados a través de red teaming interno riguroso y pruebas de penetración de terceros. Reportes disponibles para auditoría y diligencia debida bajo solicitud.",
 }; 

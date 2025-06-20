@@ -17,6 +17,7 @@ export default {
   navEvents: "Events",
   navNewsMedia: "News & Media",
   navPartnersAlliances: "Partners & Alliances",
+  navCompliance: "Compliance",
   contactSales: "Contact Sales",
   // Hero
   heroTitle: "Fusing AI-driven logistics with real-time Earth intelligence",
@@ -236,4 +237,19 @@ export default {
   partner5Desc: "Enabling SATCOM and off-grid connectivity for DefAgent deployments using edge comms and satellite bridging.",
   partner6Name: "VulnCheck (prospective)",
   partner6Desc: "Exploring joint initiatives in exploit analytics and CVE enrichment for sovereign cyber threat response.",
+  // Compliance Page
+  complianceTitle: "Compliance & Security Assurance",
+  complianceSubtitle: "DefAgent is built to exceed the security, regulatory, and operational standards required by government, defense, and critical infrastructure missions.",
+  compliance1Title: "NIST 800-171 / 800-53",
+  compliance1Desc: "DefAgent aligns with NIST security controls for federal information systems and organizations, ensuring confidentiality, integrity, and availability of mission data.",
+  compliance2Title: "NATO Interoperability Standards",
+  compliance2Desc: "Engineered for seamless collaboration across NATO commands and allied defense networks, including TAK, C2/C4I, and STANAG compliance.",
+  compliance3Title: "FIPS 140-2 Level 3",
+  compliance3Desc: "All encrypted hardware and key management modules adhere to FIPS 140-2 Level 3 standards, validated for cryptographic integrity and tamper resistance.",
+  compliance4Title: "CMMC Readiness",
+  compliance4Desc: "DefAgent is designed with Cybersecurity Maturity Model Certification (CMMC) Level 2+ readiness for defense contractors and critical suppliers.",
+  compliance5Title: "GDPR / Data Sovereignty",
+  compliance5Desc: "Supports data locality, sovereign hosting, and customer-managed encryption to meet global data privacy and protection standards.",
+  compliance6Title: "Custom Red Team Validation",
+  compliance6Desc: "All systems are tested through rigorous internal red teaming and third-party pen testing. Reports available for audit and due diligence on request.",
 }; 

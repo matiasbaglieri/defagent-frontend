@@ -15,6 +15,7 @@ import CoreValues from "./pages/CoreValues";
 import Events from "./pages/Events";
 import NewsMedia from "./pages/NewsMedia";
 import PartnersAlliances from "./pages/PartnersAlliances";
+import Compliance from "./pages/Compliance";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/events" element={<Events />} />
           <Route path="/news-media" element={<NewsMedia />} />
           <Route path="/partners-alliances" element={<PartnersAlliances />} />
+          <Route path="/compliance" element={<Compliance />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -16,6 +16,7 @@ export default {
   navCoreValues: "Valeurs Fondamentales",
   navEvents: "Événements",
   navNewsMedia: "Actualités et Médias",
+  navCompliance: "Conformité",
   contactSales: "Contacter les Ventes",
   // Hero
   heroTitle: "Fusionner la logistique basée sur l'IA avec l'intelligence terrestre en temps réel",
@@ -238,4 +239,19 @@ export default {
   partner5Desc: "Permettre la connectivité SATCOM et hors réseau pour les déploiements DefAgent utilisant les communications de bordure et le pontage satellitaire.",
   partner6Name: "VulnCheck (prospectif)",
   partner6Desc: "Explorer les initiatives conjointes en analyse d'exploit et enrichissement CVE pour la réponse souveraine aux menaces cyber.",
+  // Compliance Page
+  complianceTitle: "Conformité et Assurance de Sécurité",
+  complianceSubtitle: "DefAgent est construit pour dépasser les normes de sécurité, réglementaires et opérationnelles requises par les missions gouvernementales, de défense et d'infrastructure critique.",
+  compliance1Title: "NIST 800-171 / 800-53",
+  compliance1Desc: "DefAgent s'aligne avec les contrôles de sécurité NIST pour les systèmes d'information fédéraux et les organisations, assurant la confidentialité, l'intégrité et la disponibilité des données de mission.",
+  compliance2Title: "Normes d'Interopérabilité de l'OTAN",
+  compliance2Desc: "Conçu pour une collaboration transparente à travers les commandements de l'OTAN et les réseaux de défense alliés, incluant la conformité TAK, C2/C4I et STANAG.",
+  compliance3Title: "FIPS 140-2 Niveau 3",
+  compliance3Desc: "Tout le matériel chiffré et les modules de gestion des clés adhèrent aux normes FIPS 140-2 Niveau 3, validés pour l'intégrité cryptographique et la résistance à la manipulation.",
+  compliance4Title: "Préparation CMMC",
+  compliance4Desc: "DefAgent est conçu avec une préparation à la Certification de Maturité de Cybersécurité (CMMC) Niveau 2+ pour les entrepreneurs de défense et fournisseurs critiques.",
+  compliance5Title: "GDPR / Souveraineté des Données",
+  compliance5Desc: "Soutient la localité des données, l'hébergement souverain et le chiffrement géré par le client pour répondre aux normes mondiales de confidentialité et de protection des données.",
+  compliance6Title: "Validation Red Team Personnalisée",
+  compliance6Desc: "Tous les systèmes sont testés à travers un red teaming interne rigoureux et des tests de pénétration tiers. Rapports disponibles pour audit et diligence raisonnable sur demande.",
 }; 

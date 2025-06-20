@@ -15,6 +15,7 @@ export default {
   navCoreValues: "ערכי ליבה",
   navEvents: "אירועים",
   navNewsMedia: "חדשות ומדיה",
+  navCompliance: "עמידה בתקנות",
   navPartnersAlliances: "שותפים ובריתות",
   contactSales: "צור קשר עם מכירות",
   // Hero
@@ -237,5 +238,20 @@ export default {
   partner5Name: "Somewear Labs",
   partner5Desc: "מאפשר קישוריות SATCOM ומחוץ לרשת לפריסות DefAgent באמצעות תקשורת קצה וגשר לוויינים.",
   partner6Name: "VulnCheck (פוטנציאלי)",
-  partner6Desc: "חוקר יוזמות משותפות בניתוח ניצול ועשרת CVE לתגובה ריבונית לאיומי סייבר."
+  partner6Desc: "חוקר יוזמות משותפות בניתוח ניצול ועשרת CVE לתגובה ריבונית לאיומי סייבר.",
+  // Compliance Page
+  complianceTitle: "עמידה בתקנות והבטחת אבטחה",
+  complianceSubtitle: "DefAgent נבנה כדי לעלות על תקני האבטחה, הרגולציה והתפעול הנדרשים על ידי משימות ממשלתיות, הגנה ותשתיות קריטיות.",
+  compliance1Title: "NIST 800-171 / 800-53",
+  compliance1Desc: "DefAgent מיישר עם בקרות האבטחה של NIST עבור מערכות מידע פדרליות וארגונים, מבטיח סודיות, יושרה וזמינות של נתוני משימה.",
+  compliance2Title: "תקני אינטרופרביליות נאט\"ו",
+  compliance2Desc: "מתוכנן לשיתוף פעולה חלק בין פיקודי נאט\"ו ורשתות הגנה בעלות ברית, כולל עמידה ב-TAK, C2/C4I ו-STANAG.",
+  compliance3Title: "FIPS 140-2 רמה 3",
+  compliance3Desc: "כל החומרה המוצפנת ומודולי ניהול מפתחות עומדים בתקני FIPS 140-2 רמה 3, מאומתים ליושרה קריפטוגרפית ועמידות בפני מניפולציה.",
+  compliance4Title: "מוכנות CMMC",
+  compliance4Desc: "DefAgent מתוכנן עם מוכנות לתעודת בגרות אבטחת סייבר (CMMC) רמה 2+ עבור קבלני הגנה וספקים קריטיים.",
+  compliance5Title: "GDPR / ריבונות נתונים",
+  compliance5Desc: "תומך במקומיות נתונים, אירוח ריבוני והצפנה מנוהלת על ידי לקוח כדי לעמוד בתקני פרטיות והגנת נתונים גלובליים.",
+  compliance6Title: "אימות Red Team מותאם אישית",
+  compliance6Desc: "כל המערכות נבדקות דרך red teaming פנימי קפדני ובדיקות חדירה של צד שלישי. דוחות זמינים לביקורת ודיליג'נס סביר על פי בקשה.",
 } 

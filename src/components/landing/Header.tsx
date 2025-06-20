@@ -111,6 +111,11 @@ export const Header = () => {
                   {t("navPartnersAlliances")}
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/compliance" className="cursor-pointer">
+                  {t("navCompliance")}
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           {navLinks.map((link) => (
