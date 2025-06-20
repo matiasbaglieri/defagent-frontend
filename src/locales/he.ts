@@ -41,18 +41,21 @@ export default {
   // Team
   teamTitle: "מפעילים מובחרים וחלוצי קוד פתוח",
   teamSubtitle: "הצוות שלנו משלב ניסיון מבצעי עמוק עם כישרון הנדסי ברמה עולמית.",
-  teamMember1Name: "CTO",
-  teamMember1Desc: "מייסד 3 סטארטאפים, מומחה בבינה מלאכותית ובלוקצ'יין",
-  teamMember2Name: "CEO",
-  teamMember2Desc: "לשעבר CamGroupDefense, Technomeca, Crescent Hill Capital",
-  teamMember3Name: "CAO",
-  teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
+  teamMember1Name: "Matias Baglieri",
+  teamMember1Role: "CTO",
+  teamMember1Desc: "מייסד 3 סטארטאפים, מומחה באוטומציה של תשתיות, מחשוב סודי ואבטחת בלוקצ'יין.",
+  teamMember2Name: "Raphael Piñedo",
+  teamMember2Role: "CEO",
+  teamMember2Desc: "מנהל לשעבר ב-CamGroupDefense, Technomeca ו-Crescent Hill Capital. מנהיג חזוני בחדשנות הגנה.",
+  teamMember3Name: "Carolina Fogliato",
+  teamMember3Role: "CAO",
+  teamMember3Desc: "מייסדת 2 סטארטאפים. מומחית משפטית ועמידה בתקנות עם התמחות בסביבות מוסדרות ופעולות קריטיות למשימה.",
   // CTA
   ctaTitle: "מוכן לשלוט בשדה הקרב?",
   ctaSubtitle: "שלב את כוחותיך עם הדור הבא של C2 ומודיעין. צור קשר לקביעת הדגמה פרטית ליחידה שלך.",
   ctaButton: "בקש הדגמה",
   // Footer
-  footerAllRightsReserved: "כל הזכויות שמורות.",
+  footerAllRightsReserved: " כל הזכויות שמורות. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
   // Solutions Page
   solutionsPageTitle: "פלטפורמת IT טקטית DefAgent",
   solutionsPageSubtitle: "פתרונות הגנה מקיפים למלחמה מודרנית",
@@ -77,4 +80,7 @@ export default {
   careersPosition2Type: "משרה מלאה · מרחוק או היברידי",
   careersPosition3Title: "מנהל יחסי מפתחים – חבר צוות טכני מייסד",
   careersPosition3Type: "משרה מלאה · מרחוק או היברידי",
+  // Team Page
+  teamPageTitle: "פגשו את הצוות",
+  teamPageSubtitle: "ב-DefAgent, אנו מפתחים פתרונות IT טקטיים מתקדמים להגנה על התשתית הקריטית ביותר בעולם. עם יותר מ-100 פטנטי אבטחה, יותר מ-30 מאמרים בכנסים המובילים, וצוות של מנהיגים שהציגו ב-USENIX, CCC ו-Black Hat, אנו דוחפים את הגבולות של בינה מלאכותית, ISR ומחשוב מאובטח.",
 }; 

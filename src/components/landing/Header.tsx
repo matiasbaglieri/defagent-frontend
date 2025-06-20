@@ -9,10 +9,8 @@ export const Header = () => {
   const location = useLocation();
 
   const navLinks = [
-    { id: "problem", label: t("navProblem"), href: "/#problem" },
     { id: "solution", label: t("navSolution"), href: "/solutions" },
-    { id: "demo", label: t("navDemo"), href: "/#demo" },
-    { id: "team", label: t("navTeam"), href: "/#team" },
+    { id: "team", label: t("navTeam"), href: "/team" },
     { id: "careers", label: t("navCareers"), href: "/careers" },
   ];
 

@@ -52,7 +52,7 @@ export default {
   ctaSubtitle: "Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.",
   ctaButton: "Request a Demo",
   // Footer
-  footerAllRightsReserved: "All rights reserved.",
+  footerAllRightsReserved: "All rights reserved. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
   // Solutions Page
   solutionsPageTitle: "DefAgent Tactical IT Platform",
   solutionsPageSubtitle: "Comprehensive defense solutions for modern warfare",
@@ -77,4 +77,16 @@ export default {
   careersPosition2Type: "Full-Time · Remote or Hybrid",
   careersPosition3Title: "Developer Relations Lead – Member of Founding Technical Staff",
   careersPosition3Type: "Full-Time · Remote or Hybrid",
+  // Team Page
+  teamPageTitle: "Meet the Team",
+  teamPageSubtitle: "At DefAgent, we develop cutting-edge tactical IT solutions to protect the world's most critical infrastructure. With 100+ security patents, 30+ papers in top conferences, and a team of leaders who've presented at USENIX, CCC, and Black Hat—we're pushing the boundaries of AI, ISR, and secure computing.",
+  teamMember1Name: "Matias Baglieri",
+  teamMember1Role: "CTO",
+  teamMember1Desc: "Founder of 3 startups, expert in infrastructure automation, confidential computing, and blockchain security.",
+  teamMember2Name: "Raphael Piñedo",
+  teamMember2Role: "CEO",
+  teamMember2Desc: "Former executive at CamGroupDefense, Technomeca, and Crescent Hill Capital. Visionary leader in defense innovation.",
+  teamMember3Name: "Carolina Fogliato",
+  teamMember3Role: "CAO",
+  teamMember3Desc: "Founder of 2 startups. Legal and compliance expert with specialization in regulated environments and mission-critical operations.",
 }; 

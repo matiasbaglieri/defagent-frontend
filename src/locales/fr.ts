@@ -41,18 +41,21 @@ export default {
   // Team
   teamTitle: "Opérateurs d'Élite et Pionniers de l'Open-Source",
   teamSubtitle: "Notre équipe allie une expérience opérationnelle approfondie à un talent d'ingénierie de classe mondiale.",
-  teamMember1Name: "CTO",
-  teamMember1Desc: "Fondateur de 3 startups, expert en IA et Blockchain",
-  teamMember2Name: "CEO",
-  teamMember2Desc: "Ancien de CamGroupDefense, Technomeca, Crescent Hill Capital",
-  teamMember3Name: "CAO",
-  teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
+  teamMember1Name: "Matias Baglieri",
+  teamMember1Role: "CTO",
+  teamMember1Desc: "Fondateur de 3 startups, expert en automatisation d'infrastructure, informatique confidentielle et sécurité blockchain.",
+  teamMember2Name: "Raphael Piñedo",
+  teamMember2Role: "CEO",
+  teamMember2Desc: "Ancien dirigeant chez CamGroupDefense, Technomeca et Crescent Hill Capital. Leader visionnaire en innovation de défense.",
+  teamMember3Name: "Carolina Fogliato",
+  teamMember3Role: "CAO",
+  teamMember3Desc: "Fondatrice de 2 startups. Experte juridique et de conformité avec spécialisation dans les environnements réglementés et les opérations critiques pour la mission.",
   // CTA
   ctaTitle: "Prêt à dominer l'espace de bataille ?",
   ctaSubtitle: "Intégrez vos forces à la nouvelle génération de C2 et de renseignement. Contactez-nous pour planifier une démonstration privée pour votre unité.",
   ctaButton: "Demander une démo",
   // Footer
-  footerAllRightsReserved: "Tous droits réservés.",
+  footerAllRightsReserved: "Tous droits réservés. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
   // Solutions Page
   solutionsPageTitle: "Plateforme IT Tactique DefAgent",
   solutionsPageSubtitle: "Solutions de défense complètes pour la guerre moderne",
@@ -77,4 +80,7 @@ export default {
   careersPosition2Type: "Temps Plein · Télétravail ou Hybride",
   careersPosition3Title: "Responsable des Relations Développeurs – Membre du Personnel Technique Fondateur",
   careersPosition3Type: "Temps Plein · Télétravail ou Hybride",
+  // Team Page
+  teamPageTitle: "Rencontrez l'Équipe",
+  teamPageSubtitle: "Chez DefAgent, nous développons des solutions IT tactiques de pointe pour protéger l'infrastructure la plus critique au monde. Avec plus de 100 brevets de sécurité, plus de 30 articles dans les meilleures conférences, et une équipe de leaders qui ont présenté à USENIX, CCC et Black Hat, nous repoussons les limites de l'IA, de l'ISR et de l'informatique sécurisée.",
 }; 
