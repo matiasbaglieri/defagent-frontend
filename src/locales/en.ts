@@ -52,4 +52,17 @@ export default {
   ctaButton: "Request a Demo",
   // Footer
   footerAllRightsReserved: "All rights reserved.",
+  // Solutions Page
+  solutionsPageTitle: "DefAgent Tactical IT Platform",
+  solutionsPageSubtitle: "Comprehensive defense solutions for modern warfare",
+  solutionsItem1Title: "AI-Driven ISR Analytics",
+  solutionsItem1Desc: "Real-time fusion of battlefield, cyber, and geospatial intelligence to drive faster and smarter defense decisions.",
+  solutionsItem2Title: "DefAgent App: Tactical Exploit Intelligence at the Edge",
+  solutionsItem2Desc: "Real-time CVE detection, threat mapping, and automated response in dynamic combat environments.",
+  solutionsItem3Title: "Encrypted Hardware",
+  solutionsItem3Desc: "Tamper-resistant, ruggedized devices with hardware-based encryption for secure, field-ready operations in contested environments.",
+  solutionsItem4Title: "Strategic Services",
+  solutionsItem4Desc: "Cybersecurity consulting, custom integration, operational support, and training for defense, government, and critical infrastructure.",
+  solutionsItem5Title: "Open C2 / TAK Integration",
+  solutionsItem5Desc: "Seamless compatibility with TAK servers and Open C2 systems for command, control, and situational awareness across units.",
 }; 

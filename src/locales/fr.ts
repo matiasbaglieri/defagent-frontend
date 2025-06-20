@@ -52,4 +52,17 @@ export default {
   ctaButton: "Demander une démo",
   // Footer
   footerAllRightsReserved: "Tous droits réservés.",
+  // Solutions Page
+  solutionsPageTitle: "Plateforme IT Tactique DefAgent",
+  solutionsPageSubtitle: "Solutions de défense complètes pour la guerre moderne",
+  solutionsItem1Title: "Analyses ISR Pilotées par l'IA",
+  solutionsItem1Desc: "Fusion en temps réel de l'intelligence de champ de bataille, cyber et géospatiale pour stimuler des décisions de défense plus rapides et plus intelligentes.",
+  solutionsItem2Title: "App DefAgent : Intelligence d'Exploit Tactique en Bordure",
+  solutionsItem2Desc: "Détection CVE en temps réel, cartographie des menaces et réponse automatisée dans des environnements de combat dynamiques.",
+  solutionsItem3Title: "Matériel Chiffré",
+  solutionsItem3Desc: "Dispositifs résistants à la manipulation et robustes avec chiffrement matériel pour des opérations sécurisées et prêtes pour le terrain dans des environnements contestés.",
+  solutionsItem4Title: "Services Stratégiques",
+  solutionsItem4Desc: "Conseil en cybersécurité, intégration personnalisée, support opérationnel et formation pour la défense, le gouvernement et les infrastructures critiques.",
+  solutionsItem5Title: "Intégration Open C2 / TAK",
+  solutionsItem5Desc: "Compatibilité transparente avec les serveurs TAK et les systèmes Open C2 pour le commandement, le contrôle et la conscience situationnelle entre unités.",
 }; 

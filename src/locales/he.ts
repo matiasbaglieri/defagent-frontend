@@ -52,4 +52,17 @@ export default {
   ctaButton: "בקש הדגמה",
   // Footer
   footerAllRightsReserved: "כל הזכויות שמורות.",
+  // Solutions Page
+  solutionsPageTitle: "פלטפורמת IT טקטית DefAgent",
+  solutionsPageSubtitle: "פתרונות הגנה מקיפים למלחמה מודרנית",
+  solutionsItem1Title: "ניתוח ISR מונע בינה מלאכותית",
+  solutionsItem1Desc: "מיזוג בזמן אמת של מודיעין שדה קרב, סייבר וגיאו-מרחבי כדי להניע החלטות הגנה מהירות וחכמות יותר.",
+  solutionsItem2Title: "אפליקציית DefAgent: מודיעין ניצול טקטי בשוליים",
+  solutionsItem2Desc: "זיהוי CVE בזמן אמת, מיפוי איומים ותגובה אוטומטית בסביבות קרב דינמיות.",
+  solutionsItem3Title: "חומרה מוצפנת",
+  solutionsItem3Desc: "מכשירים עמידים בפני מניפולציה וחסונים עם הצפנה מבוססת חומרה לפעולות מאובטחות ומוכנות לשדה בסביבות שנויות במחלוקת.",
+  solutionsItem4Title: "שירותים אסטרטגיים",
+  solutionsItem4Desc: "ייעוץ אבטחת סייבר, אינטגרציה מותאמת אישית, תמיכה תפעולית והכשרה להגנה, ממשל ותשתיות קריטיות.",
+  solutionsItem5Title: "אינטגרציה Open C2 / TAK",
+  solutionsItem5Desc: "תאימות חלקה עם שרתי TAK ומערכות Open C2 לפקוד, שליטה ומודעות מצבית בין יחידות.",
 }; 
