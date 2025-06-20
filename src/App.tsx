@@ -8,6 +8,7 @@ import Solutions from "./pages/Solutions";
 import Careers from "./pages/Careers";
 import Team from "./pages/Team";
 import Integrations from "./pages/Integrations";
+import SkyFi from "./pages/SkyFi";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/careers" element={<Careers />} />
           <Route path="/team" element={<Team />} />
           <Route path="/integrations" element={<Integrations />} />
+          <Route path="/skyfi" element={<SkyFi />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -50,6 +50,11 @@ export const Header = () => {
                   {t("navAWS")}
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/skyfi" className="cursor-pointer">
+                  {t("navSkyFi")}
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
