@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Solutions from "./pages/Solutions";
 import Careers from "./pages/Careers";
 import Team from "./pages/Team";
+import Integrations from "./pages/Integrations";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/integrations" element={<Integrations />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

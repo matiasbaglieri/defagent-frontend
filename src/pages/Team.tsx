@@ -9,21 +9,21 @@ export default function Team() {
 
   const team = [
     {
-      name: t("teamMember1Name"),
-      role: t("teamMember1Role"),
-      description: t("teamMember1Desc"),
+      name: t("teamPageMember1Name"),
+      role: t("teamPageMember1Role"),
+      description: t("teamPageMember1Desc"),
       image: "/lovable-uploads/8a9a0c68-8f5a-4de8-89e9-6adb3a22580a.png",
     },
     {
-      name: t("teamMember2Name"),
-      role: t("teamMember2Role"),
-      description: t("teamMember2Desc"),
+      name: t("teamPageMember2Name"),
+      role: t("teamPageMember2Role"),
+      description: t("teamPageMember2Desc"),
       image: "/lovable-uploads/0d151261-672f-433d-8921-4f5e6c232e9b.png",
     },
     {
-      name: t("teamMember3Name"),
-      role: t("teamMember3Role"),
-      description: t("teamMember3Desc"),
+      name: t("teamPageMember3Name"),
+      role: t("teamPageMember3Role"),
+      description: t("teamPageMember3Desc"),
       image: "/lovable-uploads/1596672846729.jpeg",
     },
   ];

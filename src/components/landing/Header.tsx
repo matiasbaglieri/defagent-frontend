@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Shield } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Shield, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import { LanguageSwitcher } from "../LanguageSwitcher";
@@ -31,6 +37,21 @@ export const Header = () => {
               {link.label}
             </Link>
           ))}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="flex items-center space-x-1 transition-colors hover:text-primary">
+                <span>{t("navPartners")}</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-48">
+              <DropdownMenuItem asChild>
+                <Link to="/integrations" className="cursor-pointer">
+                  {t("navAWS")}
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <LanguageSwitcher />
