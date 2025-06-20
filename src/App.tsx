@@ -13,6 +13,8 @@ import FreeTAKServer from "./pages/FreeTAKServer";
 import NotFound from "./pages/NotFound";
 import CoreValues from "./pages/CoreValues";
 import Events from "./pages/Events";
+import NewsMedia from "./pages/NewsMedia";
+import PartnersAlliances from "./pages/PartnersAlliances";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +34,8 @@ const App = () => (
           <Route path="/freetakserver" element={<FreeTAKServer />} />
           <Route path="/core-values" element={<CoreValues />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/news-media" element={<NewsMedia />} />
+          <Route path="/partners-alliances" element={<PartnersAlliances />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
