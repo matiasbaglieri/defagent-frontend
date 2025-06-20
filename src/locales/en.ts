@@ -476,5 +476,23 @@ export default {
   "cookie_s8_p1": "For questions about this Cookie Policy:",
   "cookie_s8_email": "Email",
   "cookie_s8_phone": "Phone",
-  "cookie_policy_footer_last_updated": "Last Updated"
+  "cookie_policy_footer_last_updated": "Last Updated",
+
+  "cookie_banner_title": "Your Privacy Matters",
+  "cookie_banner_p1_1": "We use cookies to enhance your experience, analyze traffic, and serve targeted ads. By clicking \"Accept All\", you consent to all cookies. You can manage your preferences in our ",
+  "cookie_banner_p1_link": "Cookie Policy",
+  "cookie_banner_p1_2": ".",
+  "cookie_banner_customize": "Customize",
+  "cookie_banner_reject": "Reject All",
+  "cookie_banner_accept": "Accept All",
+  "cookie_modal_title": "Cookie Preferences",
+  "cookie_modal_necessary_title": "Strictly Necessary Cookies",
+  "cookie_modal_necessary_p": "Essential for website functionality. Cannot be disabled.",
+  "cookie_modal_functional_title": "Functional Cookies",
+  "cookie_modal_functional_p": "Remember your preferences and settings for future visits.",
+  "cookie_modal_analytics_title": "Analytics Cookies",
+  "cookie_modal_analytics_p": "Help us understand how visitors interact with our website.",
+  "cookie_modal_marketing_title": "Marketing Cookies",
+  "cookie_modal_marketing_p": "Used to deliver relevant ads and measure ad performance.",
+  "cookie_modal_save": "Save Preferences"
 };

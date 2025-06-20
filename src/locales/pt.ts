@@ -458,5 +458,23 @@ export default {
   "cookie_s8_p1": "Para perguntas sobre esta Política de Cookies:",
   "cookie_s8_email": "E-mail",
   "cookie_s8_phone": "Telefone",
-  "cookie_policy_footer_last_updated": "Última Atualização"
+  "cookie_policy_footer_last_updated": "Última Atualização",
+
+  "cookie_banner_title": "A Sua Privacidade é Importante",
+  "cookie_banner_p1_1": "Utilizamos cookies para melhorar a sua experiência, analisar o tráfego e apresentar anúncios direcionados. Ao clicar em \"Aceitar Tudo\", você concorda com todos os cookies. Pode gerir as suas preferências na nossa ",
+  "cookie_banner_p1_link": "Política de Cookies",
+  "cookie_banner_p1_2": ".",
+  "cookie_banner_customize": "Personalizar",
+  "cookie_banner_reject": "Rejeitar Tudo",
+  "cookie_banner_accept": "Aceitar Tudo",
+  "cookie_modal_title": "Preferências de Cookies",
+  "cookie_modal_necessary_title": "Cookies Estritamente Necessários",
+  "cookie_modal_necessary_p": "Essenciais para a funcionalidade do site. Não podem ser desativados.",
+  "cookie_modal_functional_title": "Cookies Funcionais",
+  "cookie_modal_functional_p": "Lembram as suas preferências e configurações para visitas futuras.",
+  "cookie_modal_analytics_title": "Cookies de Análise",
+  "cookie_modal_analytics_p": "Ajudam-nos a compreender como os visitantes interagem com o nosso site.",
+  "cookie_modal_marketing_title": "Cookies de Marketing",
+  "cookie_modal_marketing_p": "Utilizados para apresentar anúncios relevantes e medir o desempenho dos anúncios.",
+  "cookie_modal_save": "Guardar Preferências"
 };

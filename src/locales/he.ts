@@ -385,5 +385,23 @@ export default {
   "cookie_s8_p1": "לשאלות בנוגע למדיניות קובצי Cookie זו:",
   "cookie_s8_email": "אימייל",
   "cookie_s8_phone": "טלפון",
-  "cookie_policy_footer_last_updated": "עדכון אחרון"
+  "cookie_policy_footer_last_updated": "עדכון אחרון",
+
+  "cookie_banner_title": "הפרטיות שלך חשובה לנו",
+  "cookie_banner_p1_1": "אנו משתמשים בקובצי Cookie כדי לשפר את חווייתך, לנתח תנועה ולהציג מודעות ממוקדות. בלחיצה על \"קבל הכל\", אתה מסכים לכל קובצי ה-Cookie. תוכל לנהל את העדפותיך ב",
+  "cookie_banner_p1_link": "מדיניות קובצי ה-Cookie",
+  "cookie_banner_p1_2": " שלנו.",
+  "cookie_banner_customize": "התאמה אישית",
+  "cookie_banner_reject": "דחה הכל",
+  "cookie_banner_accept": "קבל הכל",
+  "cookie_modal_title": "העדפות קובצי Cookie",
+  "cookie_modal_necessary_title": "קובצי Cookie הכרחיים בהחלט",
+  "cookie_modal_necessary_p": "חיוניים לתפקוד האתר. לא ניתן להשבית אותם.",
+  "cookie_modal_functional_title": "קובצי Cookie פונקציונליים",
+  "cookie_modal_functional_p": "זוכרים את העדפותיך והגדרותיך לביקורים עתידיים.",
+  "cookie_modal_analytics_title": "קובצי Cookie אנליטיים",
+  "cookie_modal_analytics_p": "עוזרים לנו להבין כיצד מבקרים מתקשרים עם האתר שלנו.",
+  "cookie_modal_marketing_title": "קובצי Cookie שיווקיים",
+  "cookie_modal_marketing_p": "משמשים להצגת מודעות רלוונטיות ולמדידת ביצועי המודעות.",
+  "cookie_modal_save": "שמור העדפות"
 } 
