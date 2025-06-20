@@ -3,6 +3,7 @@ export default {
   navProblem: "Problema",
   navSolution: "Solução",
   navWhitepaper: "Whitepaper",
+  navSupport: "Suporte",
   navDemo: "Demonstração",
   navTeam: "Equipe",
   navCareers: "Carreiras",

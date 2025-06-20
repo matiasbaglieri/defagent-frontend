@@ -54,6 +54,11 @@ export const Header = () => {
                   {t("navWhitepaper")}
                 </a>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <a href="https://api.whatsapp.com/send?text=i%20need%20support&phone=5491164616122" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  {t("navSupport")}
+                </a>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <DropdownMenu>

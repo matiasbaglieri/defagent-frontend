@@ -3,6 +3,7 @@ export default {
   navProblem: "בעיה",
   navSolution: "פתרון",
   navWhitepaper: "נייר עמדה",
+  navSupport: "תמיכה",
   navDemo: "הדגמה",
   navTeam: "צוות",
   navCareers: "קריירה",
