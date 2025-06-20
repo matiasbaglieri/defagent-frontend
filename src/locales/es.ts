@@ -263,7 +263,7 @@ export default {
   blogPost2Title: "Por Qué TAK + IA es el Nuevo Estándar para Operaciones Tácticas",
   blogPost2Date: "27 de mayo de 2025",
   blogPost2Summary: "Cómo integrar soporte de decisión de IA en flujos de trabajo TAK reduce la carga del operador y acelera la ejecución de misiones.",
-  blogPost2Link: "https://defagent.ai/blog/tak-ai-tactical-standard",
+  blogPost2Link: "/blog/tak-ai-is-the-new-standard",
   blogPost3Title: "De CVE a Contramedida: El Futuro de la Inteligencia de Exploits",
   blogPost3Date: "10 de mayo de 2025",
   blogPost3Summary: "Una mirada profunda a la integración de CiberG y cómo la ingestión automatizada de CVE transforma señales de amenaza en mecanismos de defensa accionables.",
@@ -287,4 +287,19 @@ export default {
   post1_p5: "En un ejercicio de campo reciente, el sistema de IA de DefAgent mejoró su tasa de detección de falsos positivos de CVE en un 31% en el transcurso de 6 horas gracias a la retroalimentación en el borde y la priorización adaptativa. Esto no se hizo en un laboratorio en la nube, sino en hardware real, en condiciones reales.",
   post1_p6: "¿Quiere saber más sobre cómo DefAgent da vida a la autonomía táctica?",
   post1_cta: "Contacte a Nuestro Equipo",
+
+  // Blog Post: Why TAK + AI is the New Standard for Tactical Operations
+  post2_title: "Por Qué TAK + IA es el Nuevo Estándar para Operaciones Tácticas",
+  post2_date: "🗓 27 de mayo de 2025",
+  post2_p1: "A medida que los entornos tácticos se vuelven más complejos, la capacidad de interpretar, priorizar y actuar sobre la inteligencia en tiempo real nunca ha sido más crítica. Es por eso que integrar la IA directamente en los flujos de trabajo de TAK ya no es un objetivo futuro, es el estándar operativo.",
+  post2_h2_1: "Lo que TAK Aporta a la Mesa",
+  post2_p2: "El ecosistema del Kit de Asalto Táctico (TAK) se ha convertido en la plataforma de referencia para la conciencia situacional y la coordinación de equipos en el campo. Desde ATAK hasta FreeTAKServer, su arquitectura modular y su ecosistema de complementos abiertos ofrecen mapeo en tiempo real, seguimiento de activos, mensajería y sincronización de misiones.",
+  post2_h2_2: "Dónde Encaja la IA",
+  post2_p3: "La IA aumenta TAK al reducir la carga cognitiva de los operadores. En lugar de analizar manualmente docenas de fuentes de datos, el motor de IA de DefAgent procesa CVE, alertas de sensores y patrones de comunicación para mostrar solo las amenazas más relevantes y urgentes.",
+  post2_h2_3: "De la Información a la Acción",
+  post2_p4: "En el ecosistema DefAgent+TAK, las alertas generadas por IA pueden desencadenar superposiciones directas en la aplicación, sugerencias de rutas o transmisiones seguras a EUD conectados. Ya sea que esté desviando una ruta alrededor de una zona comprometida o desplegando una respuesta de campo a una nueva amenaza, cada decisión se acelera con información contextual.",
+  post2_h2_4: "El Impacto Operacional",
+  post2_p5: "En pruebas de campo, las unidades que usaron TAK con complementos de IA de DefAgent redujeron los tiempos de decisión de la misión en un 43%. La combinación permitió una detección más rápida, una comunicación más clara y una mayor confianza en escenarios dinámicos.",
+  post2_p6: "¿Quiere ver TAK + IA en acción?",
+  post2_cta: "Programe una Demostración",
 }; 

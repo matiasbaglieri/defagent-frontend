@@ -18,6 +18,8 @@ import PartnersAlliances from "./pages/PartnersAlliances";
 import Compliance from "./pages/Compliance";
 import Blog from "./pages/Blog";
 import BlogPostPostTrainingAI from "./pages/blog/PostTrainingAI";
+import BlogPostTAKAIStandard from "./pages/blog/TAKAIStandard";
+import "./i18n"; // Import the i18n configuration
 
 const queryClient = new QueryClient();
 
@@ -44,6 +46,10 @@ const App = () => (
           <Route
             path="/blog/post-training-ai-for-mission-ready-autonomy"
             element={<BlogPostPostTrainingAI />}
+          />
+          <Route
+            path="/blog/tak-ai-is-the-new-standard"
+            element={<BlogPostTAKAIStandard />}
           />
           <Route path="*" element={<NotFound />} />
         </Routes>

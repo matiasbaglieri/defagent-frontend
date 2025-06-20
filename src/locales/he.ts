@@ -273,6 +273,10 @@ export default {
   blogPost1Link: "/blog/post-training-ai-for-mission-ready-autonomy",
   blogPost2Title: "למה TAK + בינה מלאכותית הוא הסטנדרט החדש לפעולות טקטיות",
   blogPost2Date: "27 במאי 2025",
+  blogPost2Summary: "כיצד שילוב תמיכת החלטות בינה מלאכותית בזרימות עבודה TAK מפחית את העומס על המפעיל ומאיץ את ביצוע המשימה.",
+  blogPost2Link: "/blog/tak-ai-is-the-new-standard",
+  blogPost3Title: "מ-CVE למדד נגד: עתיד המודיעין של ניצול",
+  blogPost3Date: "10 במאי 2025",
   blogPost4Summary: "מבט פנימי על איך EUDs חסונים, רדיו רשת ו-DefAgent יוצרים אקוסיסטם TAK של פריסה מהירה לפעולות בעולם האמיתי.",
   blogPost4Link: "https://defagent.ai/blog/gotak-deployment-inside",
 } 
