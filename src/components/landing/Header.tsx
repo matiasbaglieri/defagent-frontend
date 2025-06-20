@@ -91,6 +91,16 @@ export const Header = () => {
                   {t("navTeam")}
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/core-values" className="cursor-pointer">
+                  {t("navCoreValues")}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/events" className="cursor-pointer">
+                  {t("navEvents")}
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           {navLinks.map((link) => (

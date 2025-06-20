@@ -11,6 +11,8 @@ import Aws from "./pages/Aws";
 import SkyFi from "./pages/SkyFi";
 import FreeTAKServer from "./pages/FreeTAKServer";
 import NotFound from "./pages/NotFound";
+import CoreValues from "./pages/CoreValues";
+import Events from "./pages/Events";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/aws" element={<Aws />} />
           <Route path="/skyfi" element={<SkyFi />} />
           <Route path="/freetakserver" element={<FreeTAKServer />} />
+          <Route path="/core-values" element={<CoreValues />} />
+          <Route path="/events" element={<Events />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
