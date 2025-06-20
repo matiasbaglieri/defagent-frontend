@@ -17,8 +17,12 @@ import NewsMedia from "./pages/NewsMedia";
 import PartnersAlliances from "./pages/PartnersAlliances";
 import Compliance from "./pages/Compliance";
 import Blog from "./pages/Blog";
-import BlogPostPostTrainingAI from "./pages/blog/PostTrainingAI";
-import BlogPostTAKAIStandard from "./pages/blog/TAKAIStandard";
+import PostTrainingAI from "./pages/blog/PostTrainingAI";
+import TAKAIStandard from "./pages/blog/TAKAIStandard";
+import CVEToCountermeasure from "./pages/blog/CVEtoCountermeasure";
+import NATOCaseStudy from "./pages/blog/NATOCaseStudy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
 import "./i18n"; // Import the i18n configuration
 
 const queryClient = new QueryClient();
@@ -45,12 +49,16 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route
             path="/blog/post-training-ai-for-mission-ready-autonomy"
-            element={<BlogPostPostTrainingAI />}
+            element={<PostTrainingAI />}
           />
           <Route
             path="/blog/tak-ai-is-the-new-standard"
-            element={<BlogPostTAKAIStandard />}
+            element={<TAKAIStandard />}
           />
+          <Route path="/blog/cve-to-countermeasure" element={<CVEToCountermeasure />} />
+          <Route path="/blog/nato-case-study" element={<NATOCaseStudy />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
