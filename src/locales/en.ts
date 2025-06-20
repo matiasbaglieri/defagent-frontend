@@ -5,6 +5,7 @@ export default {
   navDemo: "Demo",
   navTeam: "Team",
   navCareers: "Careers",
+  navCustomers: "Customers",
   navPartners: "Partners",
   navAWS: "AWS",
   navSkyFi: "SkyFi",

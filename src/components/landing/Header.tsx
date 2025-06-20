@@ -15,7 +15,6 @@ export const Header = () => {
   const location = useLocation();
 
   const navLinks = [
-    { id: "solution", label: t("navSolution"), href: "/solutions" },
     { id: "team", label: t("navTeam"), href: "/team" },
     { id: "careers", label: t("navCareers"), href: "/careers" },
   ];
@@ -40,13 +39,28 @@ export const Header = () => {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="flex items-center space-x-1 transition-colors hover:text-primary">
+                <span>{t("navCustomers")}</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-48">
+              <DropdownMenuItem asChild>
+                <Link to="/solutions" className="cursor-pointer">
+                  {t("navSolution")}
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="flex items-center space-x-1 transition-colors hover:text-primary">
                 <span>{t("navPartners")}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="w-48">
               <DropdownMenuItem asChild>
-                <Link to="/aws" className="cursor-pointer">
+                <Link to="/integrations" className="cursor-pointer">
                   {t("navAWS")}
                 </Link>
               </DropdownMenuItem>
