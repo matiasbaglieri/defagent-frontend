@@ -17,11 +17,6 @@ const PartnersAlliances = () => {
       description: t("partner2Desc"),
     },
     {
-      name: t("partner3Name"),
-      website: "https://ciberg.app",
-      description: t("partner3Desc"),
-    },
-    {
       name: t("partner4Name"),
       website: "https://www.carahsoft.com",
       description: t("partner4Desc"),

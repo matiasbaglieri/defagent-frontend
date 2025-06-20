@@ -230,8 +230,6 @@ export default {
   partner1Desc: "Asociándose para entregar imágenes satelitales casi en tiempo real e inteligencia geoespacial directamente en la pila ISR de DefAgent.",
   partner2Name: "FreeTAKServer",
   partner2Desc: "Impulsando conciencia situacional basada en TAK a través de comunicaciones encriptadas, EUDs listos para campo y radios de malla de misión.",
-  partner3Name: "CiberG",
-  partner3Desc: "Proporcionando detección de CVE en tiempo real y módulos de inteligencia de exploits integrados nativamente en el motor de IA de DefAgent.",
   partner4Name: "Carahsoft",
   partner4Desc: "Socio de canal estratégico para ayudar a DefAgent a escalar a través de contratos del gobierno de EE. UU. y del sector público.",
   partner5Name: "Somewear Labs",

@@ -232,8 +232,6 @@ export default {
   partner1Desc: "שותפות לספק הדמיה לוויינית כמעט בזמן אמת ומודיעין גיאו-מרחבי ישירות לערימת ISR של DefAgent.",
   partner2Name: "FreeTAKServer",
   partner2Desc: "מזין מודעות מצבית מבוססת TAK דרך תקשורת מוצפנת, EUDs מוכנים לשדה ורדיו רשת משימה.",
-  partner3Name: "CiberG",
-  partner3Desc: "מספק זיהוי CVE בזמן אמת ומודולי מודיעין ניצול משולבים באופן טבעי במנוע ה-AI של DefAgent.",
   partner4Name: "Carahsoft",
   partner4Desc: "שותף ערוץ אסטרטגי לעזור ל-DefAgent להרחיב דרך חוזי ממשל אמריקאי ומגזר ציבורי.",
   partner5Name: "Somewear Labs",
