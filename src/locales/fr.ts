@@ -4,6 +4,7 @@ export default {
   navSolution: "Solution",
   navDemo: "Démo",
   navTeam: "Équipe",
+  navCareers: "Carrières",
   contactSales: "Contacter les ventes",
   // Hero
   heroTitle: "Fusionner la logistique basée sur l'IA avec l'intelligence terrestre en temps réel",
@@ -65,4 +66,15 @@ export default {
   solutionsItem4Desc: "Conseil en cybersécurité, intégration personnalisée, support opérationnel et formation pour la défense, le gouvernement et les infrastructures critiques.",
   solutionsItem5Title: "Intégration Open C2 / TAK",
   solutionsItem5Desc: "Compatibilité transparente avec les serveurs TAK et les systèmes Open C2 pour le commandement, le contrôle et la conscience situationnelle entre unités.",
+  // Careers Page
+  careersPageTitle: "Construisez l'Avenir de l'IA Tactique avec DefAgent",
+  careersPageSubtitle: "DefAgent est une plateforme IT tactique de nouvelle génération conçue spécifiquement pour protéger les infrastructures critiques et les actifs de défense nationale. Nous combinons des analyses ISR alimentées par l'IA, des dispositifs de périphérie chiffrés et l'intelligence d'exploit en temps réel pour dominer l'espace de bataille invisible.",
+  careersPageDescription: "Nous sommes une équipe ambitieuse d'ingénieurs IA, de chercheurs et d'experts en systèmes explorant les frontières des systèmes agentiques autonomes, de l'optimisation post-formation et des applications de défense à haute assurance. Si vous êtes passionné par l'élaboration de l'avenir d'une infrastructure sécurisée et intelligente, nous aimerions vous rencontrer.",
+  careersApplyButton: "Postuler Maintenant",
+  careersPosition1Title: "Ingénieur de Recherche Senior – IA Appliquée",
+  careersPosition1Type: "Temps Plein · Télétravail ou Hybride",
+  careersPosition2Title: "Ingénieur Backend Senior – Ingénieur Fondateur",
+  careersPosition2Type: "Temps Plein · Télétravail ou Hybride",
+  careersPosition3Title: "Responsable des Relations Développeurs – Membre du Personnel Technique Fondateur",
+  careersPosition3Type: "Temps Plein · Télétravail ou Hybride",
 }; 

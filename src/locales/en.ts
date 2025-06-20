@@ -4,6 +4,7 @@ export default {
   navSolution: "Solution",
   navDemo: "Demo",
   navTeam: "Team",
+  navCareers: "Careers",
   contactSales: "Contact Sales",
   // Hero
   heroTitle: "Fusing AI-driven logistics with real-time Earth intelligence",
@@ -65,4 +66,15 @@ export default {
   solutionsItem4Desc: "Cybersecurity consulting, custom integration, operational support, and training for defense, government, and critical infrastructure.",
   solutionsItem5Title: "Open C2 / TAK Integration",
   solutionsItem5Desc: "Seamless compatibility with TAK servers and Open C2 systems for command, control, and situational awareness across units.",
+  // Careers Page
+  careersPageTitle: "Build the Future of Tactical AI with DefAgent",
+  careersPageSubtitle: "DefAgent is a next-generation tactical IT platform purpose-built to protect critical infrastructure and national defense assets. We combine AI-driven ISR analytics, encrypted edge devices, and real-time exploit intelligence to dominate the invisible battlespace.",
+  careersPageDescription: "We're an ambitious team of AI engineers, researchers, and systems experts exploring the frontiers of autonomous agentic systems, post-training optimization, and high-assurance defense applications. If you're passionate about shaping the future of secure, intelligent infrastructure—we'd love to meet you.",
+  careersApplyButton: "Apply Now",
+  careersPosition1Title: "Senior Research Engineer – Applied AI",
+  careersPosition1Type: "Full-Time · Remote or Hybrid",
+  careersPosition2Title: "Senior Backend Engineer – Founding Engineer",
+  careersPosition2Type: "Full-Time · Remote or Hybrid",
+  careersPosition3Title: "Developer Relations Lead – Member of Founding Technical Staff",
+  careersPosition3Type: "Full-Time · Remote or Hybrid",
 }; 

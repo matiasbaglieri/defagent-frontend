@@ -4,6 +4,7 @@ export default {
   navSolution: "Solução",
   navDemo: "Demonstração",
   navTeam: "Equipe",
+  navCareers: "Carreiras",
   contactSales: "Contatar Vendas",
   // Hero
   heroTitle: "Fundindo logística orientada por IA com inteligência terrestre em tempo real",
@@ -65,4 +66,15 @@ export default {
   solutionsItem4Desc: "Consultoria em cibersegurança, integração personalizada, suporte operacional e treinamento para defesa, governo e infraestrutura crítica.",
   solutionsItem5Title: "Integração Open C2 / TAK",
   solutionsItem5Desc: "Compatibilidade perfeita com servidores TAK e sistemas Open C2 para comando, controle e consciência situacional entre unidades.",
+  // Careers Page
+  careersPageTitle: "Construa o Futuro da IA Tática com DefAgent",
+  careersPageSubtitle: "DefAgent é uma plataforma IT tática de próxima geração projetada especificamente para proteger infraestrutura crítica e ativos de defesa nacional. Combinamos análises ISR orientadas por IA, dispositivos de borda criptografados e inteligência de exploits em tempo real para dominar o espaço de batalha invisível.",
+  careersPageDescription: "Somos uma equipe ambiciosa de engenheiros de IA, pesquisadores e especialistas em sistemas explorando as fronteiras de sistemas agentes autônomos, otimização pós-treinamento e aplicações de defesa de alta garantia. Se você é apaixonado por moldar o futuro da infraestrutura segura e inteligente, adoraríamos conhecê-lo.",
+  careersApplyButton: "Candidatar-se Agora",
+  careersPosition1Title: "Engenheiro de Pesquisa Sênior – IA Aplicada",
+  careersPosition1Type: "Tempo Integral · Remoto ou Híbrido",
+  careersPosition2Title: "Engenheiro Backend Sênior – Engenheiro Fundador",
+  careersPosition2Type: "Tempo Integral · Remoto ou Híbrido",
+  careersPosition3Title: "Líder de Relações com Desenvolvedores – Membro da Equipe Técnica Fundadora",
+  careersPosition3Type: "Tempo Integral · Remoto ou Híbrido",
 }; 
