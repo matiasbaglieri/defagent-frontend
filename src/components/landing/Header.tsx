@@ -55,6 +55,11 @@ export const Header = () => {
                   {t("navSkyFi")}
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/freetakserver" className="cursor-pointer">
+                  {t("navFreeTAKServer")}
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>

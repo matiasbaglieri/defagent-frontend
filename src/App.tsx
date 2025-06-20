@@ -9,6 +9,7 @@ import Careers from "./pages/Careers";
 import Team from "./pages/Team";
 import Integrations from "./pages/Integrations";
 import SkyFi from "./pages/SkyFi";
+import FreeTAKServer from "./pages/FreeTAKServer";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/team" element={<Team />} />
           <Route path="/integrations" element={<Integrations />} />
           <Route path="/skyfi" element={<SkyFi />} />
+          <Route path="/freetakserver" element={<FreeTAKServer />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
