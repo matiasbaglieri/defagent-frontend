@@ -15,6 +15,7 @@ export const Header = () => {
   const location = useLocation();
 
   const navLinks = [
+    { id: "blog", label: t("navBlog"), href: "/blog" },
     { id: "careers", label: t("navCareers"), href: "/careers" },
   ];
 
@@ -26,8 +27,6 @@ export const Header = () => {
           <span className="font-bold text-lg">DefAgent</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          
-          
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="flex items-center space-x-1 transition-colors hover:text-primary">
@@ -42,12 +41,22 @@ export const Header = () => {
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <a href="/pitch_deck.pdf" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <a
+                  href="/pitch_deck.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
                   {t("navWhitepaper")}
                 </a>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                <a href="https://api.whatsapp.com/send?text=i%20need%20support&phone=5491164616122" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <a
+                  href="https://api.whatsapp.com/send?text=i%20need%20support&phone=5491164616122"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
                   {t("navSupport")}
                 </a>
               </DropdownMenuItem>
@@ -119,9 +128,9 @@ export const Header = () => {
             </DropdownMenuContent>
           </DropdownMenu>
           {navLinks.map((link) => (
-            <Link 
-              key={link.id} 
-              to={link.href} 
+            <Link
+              key={link.id}
+              to={link.href}
               className="transition-colors hover:text-primary"
             >
               {link.label}
@@ -131,7 +140,11 @@ export const Header = () => {
         <div className="flex flex-1 items-center justify-end space-x-2">
           <LanguageSwitcher />
           <Button asChild>
-            <a href="https://api.whatsapp.com/send?text=i want to contact sales of defagent &phone=5491164616122" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://api.whatsapp.com/send?text=i want to contact sales of defagent &phone=5491164616122"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t("contactSales")}
             </a>
           </Button>

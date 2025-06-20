@@ -17,6 +17,7 @@ export default {
   navEvents: "Eventos",
   navNewsMedia: "Notícias e Mídia",
   navCompliance: "Conformidade",
+  navBlog: "Blog",
   contactSales: "Contatar Vendas",
   // Hero
   heroTitle: "Fundindo logística orientada por IA com inteligência terrestre em tempo real",
@@ -239,4 +240,25 @@ export default {
   compliance5Desc: "Suporta localidade de dados, hospedagem soberana e criptografia gerenciada pelo cliente para atender padrões globais de privacidade e proteção de dados.",
   compliance6Title: "Validação Red Team Personalizada",
   compliance6Desc: "Todos os sistemas são testados através de red teaming interno rigoroso e testes de penetração de terceiros. Relatórios disponíveis para auditoria e due diligence mediante solicitação.",
-}; 
+  // Blog Page
+  blogPost1Summary: "Explore como DefAgent usa reforço pós-treinamento e ajuste de borda para adaptar modelos de IA para detecção de ameaças em tempo real em ambientes desconectados.",
+  blogPost1Link: "/blog/post-training-ai-for-mission-ready-autonomy",
+  blogPost2Title: "Por Que TAK + IA é o Novo Padrão para Operações Táticas",
+  blogPost2Date: "27 de maio de 2025",
+  blogPost4Summary: "Uma visão interna de como EUDs robustos, rádios de malha e DefAgent criam um ecossistema TAK de implantação rápida para operações do mundo real.",
+  blogPost4Link: "https://defagent.ai/blog/gotak-deployment-inside",
+  // Blog Post: Post-Training AI for Mission-Ready Autonomy
+  post1_title: "IA Pós-Treinamento para Autonomia Pronta para a Missão",
+  post1_date: "🗓 18 de junho de 2025",
+  post1_p1: "Nas operações modernas, os modelos de IA devem ir muito além do laboratório: devem reagir em tempo real, sob pressão e, muitas vezes, desconectados da nuvem. A abordagem da DefAgent para a IA pós-treinamento permite exatamente isso: autonomia pronta para a missão.",
+  post1_h2_1: "Por Que o Pós-Treinamento é Importante",
+  post1_p2: "A maioria dos modelos de IA é treinada com dados centralizados em condições ideais. Mas em ambientes táticos, as condições evoluem. As ameaças mudam. Novos dados surgem na borda. O reforço pós-treinamento permite que a DefAgent ajuste os modelos em condições reais usando loops de aprendizado por reforço e feedback dos operadores.",
+  post1_h2_2: "Ajuste na Borda em Ambientes Desconectados",
+  post1_p3: "Quando a largura de banda é limitada ou o acesso à nuvem é negado, os módulos de IA de borda da DefAgent continuam a se adaptar. Nossos dispositivos de campo robustos ingerem sinais de feeds de CVE, sensores locais e interceptações de rádio, retreinando camadas selecionadas do modelo para melhorar a precisão em tempo real.",
+  post1_h2_3: "Loops de Feedback Humano",
+  post1_p4: "Os operadores podem sinalizar, validar ou rejeitar as sugestões da IA. Esses sinais são registrados e usados como feedback de reforço, permitindo que nossos modelos melhorem com base no julgamento de campo e nos resultados da missão.",
+  post1_h2_4: "Autonomia Pronta para a Missão em Ação",
+  post1_p5: "Em um exercício de campo recente, o sistema de IA da DefAgent melhorou sua taxa de detecção de falsos positivos de CVE em 31% ao longo de 6 horas, graças ao feedback na borda e à priorização adaptativa. Isso não foi feito em um laboratório na nuvem, mas em hardware real, em condições reais.",
+  post1_p6: "Quer saber mais sobre como a DefAgent dá vida à autonomia tática?",
+  post1_cta: "Entre em Contato com Nossa Equipe",
+};

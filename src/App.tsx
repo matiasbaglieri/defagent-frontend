@@ -16,6 +16,8 @@ import Events from "./pages/Events";
 import NewsMedia from "./pages/NewsMedia";
 import PartnersAlliances from "./pages/PartnersAlliances";
 import Compliance from "./pages/Compliance";
+import Blog from "./pages/Blog";
+import BlogPostPostTrainingAI from "./pages/blog/PostTrainingAI";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +40,11 @@ const App = () => (
           <Route path="/news-media" element={<NewsMedia />} />
           <Route path="/partners-alliances" element={<PartnersAlliances />} />
           <Route path="/compliance" element={<Compliance />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route
+            path="/blog/post-training-ai-for-mission-ready-autonomy"
+            element={<BlogPostPostTrainingAI />}
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
