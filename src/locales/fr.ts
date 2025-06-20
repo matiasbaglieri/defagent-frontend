@@ -1,0 +1,55 @@
+export default {
+  // Header
+  navProblem: "Problème",
+  navSolution: "Solution",
+  navDemo: "Démo",
+  navTeam: "Équipe",
+  contactSales: "Contacter les ventes",
+  // Hero
+  heroTitle: "Fusionner la logistique basée sur l'IA avec l'intelligence terrestre en temps réel",
+  heroSubtitle: "Unifiez les outils de champ de bataille cloisonnés en un seul SE. Nous donnons aux forces interarmées les moyens de cycles \"Détecter-Évaluer-Agir\" fluides pour dominer l'espace de bataille invisible.",
+  viewDemo: "Voir la Démo",
+  requestAccess: "Demander l'accès",
+  // Problem
+  problemTitle: "Lacunes Critiques dans la Logistique Multi-Domaines",
+  problemSubtitle: "Les champs de bataille d'aujourd'hui sont riches en données mais pauvres en sagesse. Des outils déconnectés créent des retards et des vulnérabilités dangereux.",
+  problem1Title: "Données Fragmentées",
+  problem1Desc: "80% des fournisseurs de la DLA sont de petites entreprises, ce qui entraîne des vulnérabilités de la chaîne d'approvisionnement et des informations cloisonnées dans des systèmes propriétaires.",
+  problem2Title: "Réponse aux Menaces Retardée",
+  problem2Desc: "La planification manuelle de la logistique du carburant —'mathématiques au crayon'— ralentit la réponse aux crises de plus de 8 minutes, un délai critique dans des scénarios à enjeux élevés.",
+  problem3Title: "Échecs d'Interopérabilité",
+  problem3Desc: "Les systèmes existants bloquent l'intégration des drones et capteurs modernes, compromettant le suivi des forces amies et la coordination des missions.",
+  // Solution
+  solutionTitle: "TAK-X : Le SE de Champ de Bataille Unifié",
+  solutionSubtitle: "Notre plateforme fusionne l'intelligence satellitaire en temps réel avec une logistique alimentée par l'IA pour offrir un avantage tactique décisif.",
+  solution1Title: "Fusion en Temps Réel",
+  solution1Desc: "Intègre le protocole CoT de FreeTAKServer avec la programmation satellite de SkyFi pour des superpositions géospatiales en direct et une conscience situationnelle inégalée.",
+  solution2Title: "Routage Automatique par IA",
+  solution2Desc: "Prédit les zones d'embuscade et les risques de la chaîne d'approvisionnement à l'aide de modèles DLA et d'analyses de terrain hyperspectrales pour garantir la sécurité des actifs et le succès de la mission.",
+  solution3Title: "Visualisation de Mission 3D",
+  solution3Desc: "Génère des cartes d'ordre de bataille conformes à l'OTAN enrichies d'images SAR et optiques de SkyFi pour une planification et une exécution de mission immersives.",
+  // Demo
+  demoTitle: "Démo en Direct : Flux de Protection de Convoi",
+  demoSubtitle: "Découvrez comment DefAgent transforme les données brutes en actions décisives en quelques secondes.",
+  demoStep1Title: "1. Détecter",
+  demoStep1Desc: "Un satellite SAR de SkyFi détecte des dommages critiques sur un pont et envoie automatiquement une alerte Cursor-on-Target (CoT) à FreeTAKServer.",
+  demoStep2Title: "2. Évaluer",
+  demoStep2Desc: "L'IA croise les données de carburant de la DLA et les cartes de menaces de GE, traçant instantanément un itinéraire plus sûr et optimisé pour le convoi.",
+  demoStep3Title: "3. Agir",
+  demoStep3Desc: "Une demande d'évacuation sanitaire est envoyée via TAK-Chat sécurisé tandis que l'appui aérien rapproché est coordonné sur une carte 3D WinTAK en direct.",
+  // Team
+  teamTitle: "Opérateurs d'Élite et Pionniers de l'Open-Source",
+  teamSubtitle: "Notre équipe allie une expérience opérationnelle approfondie à un talent d'ingénierie de classe mondiale.",
+  teamMember1Name: "CTO",
+  teamMember1Desc: "Fondateur de 3 startups, expert en IA et Blockchain",
+  teamMember2Name: "CEO",
+  teamMember2Desc: "Ancien de CamGroupDefense, Technomeca, Crescent Hill Capital",
+  teamMember3Name: "CAO",
+  teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
+  // CTA
+  ctaTitle: "Prêt à dominer l'espace de bataille ?",
+  ctaSubtitle: "Intégrez vos forces à la nouvelle génération de C2 et de renseignement. Contactez-nous pour planifier une démonstration privée pour votre unité.",
+  ctaButton: "Demander une démo",
+  // Footer
+  footerAllRightsReserved: "Tous droits réservés.",
+}; 

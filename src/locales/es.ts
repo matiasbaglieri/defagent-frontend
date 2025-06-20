@@ -1,0 +1,55 @@
+export default {
+  // Header
+  navProblem: "Problema",
+  navSolution: "Solución",
+  navDemo: "Demostración",
+  navTeam: "Equipo",
+  contactSales: "Contactar Ventas",
+  // Hero
+  heroTitle: "Fusionando logística impulsada por IA con inteligencia terrestre en tiempo real",
+  heroSubtitle: "Unifique herramientas de campo de batalla aisladas en un único SO. Empoderamos a las fuerzas conjuntas con ciclos \"Sentir-Evaluar-Efectuar\" para dominar el espacio de batalla invisible.",
+  viewDemo: "Ver Demostración",
+  requestAccess: "Solicitar Acceso",
+  // Problem
+  problemTitle: "Brechas Críticas en la Logística Multi-Dominio",
+  problemSubtitle: "Los campos de batalla de hoy son ricos en datos pero pobres en sabiduría. Las herramientas desconectadas crean retrasos y vulnerabilidades peligrosas.",
+  problem1Title: "Datos Fragmentados",
+  problem1Desc: "El 80% de los proveedores de la DLA son pequeñas empresas, lo que causa vulnerabilidades en la cadena de suministro e información aislada en sistemas propietarios.",
+  problem2Title: "Respuesta a Amenazas Retrasada",
+  problem2Desc: "La planificación manual de la logística de combustible —'cálculos a lápiz'— ralentiza la respuesta a crisis en más de 8 minutos, un retraso crítico en escenarios de alto riesgo.",
+  problem3Title: "Fallas de Interoperabilidad",
+  problem3Desc: "Los sistemas heredados bloquean la integración de drones y sensores modernos, comprometiendo el seguimiento de fuerzas amigas y la coordinación de misiones.",
+  // Solution
+  solutionTitle: "TAK-X: El SO Unificado del Campo de Batalla",
+  solutionSubtitle: "Nuestra plataforma fusiona inteligencia satelital en tiempo real con logística impulsada por IA para ofrecer una ventaja táctica decisiva.",
+  solution1Title: "Fusión en Tiempo Real",
+  solution1Desc: "Integra el protocolo CoT de FreeTAKServer con la asignación de tareas satelitales de SkyFi para superposiciones geoespaciales en vivo y una conciencia situacional sin precedentes.",
+  solution2Title: "Enrutamiento Automático con IA",
+  solution2Desc: "Predice zonas de emboscada y riesgos en la cadena de suministro utilizando modelos de la DLA y análisis de terreno hiperespectral para garantizar la seguridad de los activos y el éxito de la misión.",
+  solution3Title: "Visualización de Misión en 3D",
+  solution3Desc: "Renderiza mapas de orden de batalla compatibles con la OTAN enriquecidos con imágenes SAR y ópticas de SkyFi para una planificación y ejecución de misiones inmersivas.",
+  // Demo
+  demoTitle: "Demostración en Vivo: Flujo de Trabajo de Protección de Convoy",
+  demoSubtitle: "Vea cómo DefAgent convierte datos brutos en acciones decisivas en segundos.",
+  demoStep1Title: "1. Sentir",
+  demoStep1Desc: "Un satélite SAR de SkyFi detecta daños críticos en un puente y envía automáticamente una alerta Cursor-on-Target (CoT) a FreeTAKServer.",
+  demoStep2Title: "2. Evaluar",
+  demoStep2Desc: "La IA cruza datos de combustible de la DLA y mapas de amenazas de EW, trazando instantáneamente una ruta más segura y optimizada para el convoy.",
+  demoStep3Title: "3. Efectuar",
+  demoStep3Desc: "Se envía una solicitud de evacuación médica a través de TAK-Chat seguro mientras se coordina el Apoyo Aéreo Cercano sobre un mapa 3D de WinTAK en vivo.",
+  // Team
+  teamTitle: "Operadores de Élite y Pioneros del Código Abierto",
+  teamSubtitle: "Nuestro equipo combina una profunda experiencia operativa con talento de ingeniería de clase mundial.",
+  teamMember1Name: "CTO",
+  teamMember1Desc: "Fundador de 3 Startups, Experto en IA y Blockchain",
+  teamMember2Name: "CEO",
+  teamMember2Desc: "Ex CamGroupDefense, Technomeca, Crescent Hill Capital",
+  teamMember3Name: "CAO",
+  teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
+  // CTA
+  ctaTitle: "¿Listo para dominar el campo de batalla?",
+  ctaSubtitle: "Integre sus fuerzas con la próxima generación de C2 e inteligencia. Póngase en contacto para programar una demostración privada para su unidad.",
+  ctaButton: "Solicitar una Demostración",
+  // Footer
+  footerAllRightsReserved: "Todos los derechos reservados.",
+}; 

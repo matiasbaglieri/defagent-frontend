@@ -1,0 +1,55 @@
+export default {
+  // Header
+  navProblem: "Problema",
+  navSolution: "Solução",
+  navDemo: "Demonstração",
+  navTeam: "Equipe",
+  contactSales: "Contatar Vendas",
+  // Hero
+  heroTitle: "Fundindo logística orientada por IA com inteligência terrestre em tempo real",
+  heroSubtitle: "Unifique ferramentas de campo de batalha isoladas em um único SO. Capacitamos forças conjuntas com ciclos contínuos de \"Sentir-Avaliar-Efetuar\" para dominar o espaço de batalha invisível.",
+  viewDemo: "Ver Demonstração",
+  requestAccess: "Solicitar Acesso",
+  // Problem
+  problemTitle: "Lacunas Críticas na Logística Multidomínio",
+  problemSubtitle: "Os campos de batalha de hoje são ricos em dados, mas pobres em sabedoria. Ferramentas desconectadas criam atrasos e vulnerabilidades perigosas.",
+  problem1Title: "Dados Fragmentados",
+  problem1Desc: "80% dos fornecedores da DLA são pequenas empresas, causando vulnerabilidades na cadeia de suprimentos e informações isoladas em sistemas proprietários.",
+  problem2Title: "Resposta Atrasada a Ameaças",
+  problem2Desc: "O planejamento manual da logística de combustível —'matemática de lápis'— retarda a resposta a crises em mais de 8 minutos, um atraso crítico em cenários de alto risco.",
+  problem3Title: "Falhas de Interoperabilidade",
+  problem3Desc: "Sistemas legados bloqueiam a integração de drones e sensores modernos, comprometendo o rastreamento de forças amigas e a coordenação de missões.",
+  // Solution
+  solutionTitle: "TAK-X: O SO de Campo de Batalha Unificado",
+  solutionSubtitle: "Nossa plataforma funde inteligência de satélite em tempo real com logística alimentada por IA para fornecer uma vantagem tática decisiva.",
+  solution1Title: "Fusão em Tempo Real",
+  solution1Desc: "Integra o protocolo CoT do FreeTAKServer com o agendamento de satélites da SkyFi para sobreposições geoespaciais ao vivo e consciência situacional incomparável.",
+  solution2Title: "Roteamento Automático com IA",
+  solution2Desc: "Prevê zonas de emboscada e riscos na cadeia de suprimentos usando modelos da DLA e análise de terreno hiperespectral para garantir a segurança dos ativos e o sucesso da missão.",
+  solution3Title: "Visualização de Missão 3D",
+  solution3Desc: "Renderiza mapas de ordem de batalha compatíveis com a OTAN enriquecidos com imagens SAR e ópticas da SkyFi para planejamento e execução de missões imersivas.",
+  // Demo
+  demoTitle: "Demonstração ao Vivo: Fluxo de Trabalho de Proteção de Comboio",
+  demoSubtitle: "Veja como o DefAgent transforma dados brutos em ações decisivas em segundos.",
+  demoStep1Title: "1. Sentir",
+  demoStep1Desc: "Um satélite SAR da SkyFi detecta danos críticos em uma ponte e alimenta automaticamente um alerta Cursor-on-Target (CoT) para o FreeTAKServer.",
+  demoStep2Title: "2. Avaliar",
+  demoStep2Desc: "A IA cruza dados de combustível da DLA e mapas de ameaças de GE, traçando instantaneamente uma rota mais segura e otimizada para o comboio.",
+  demoStep3Title: "3. Efetuar",
+  demoStep3Desc: "Uma solicitação de evacuação médica é enviada via TAK-Chat seguro enquanto o Apoio Aéreo Próximo é coordenado em um mapa 3D WinTAK ao vivo.",
+  // Team
+  teamTitle: "Operadores de Elite e Pioneiros de Código Aberto",
+  teamSubtitle: "Nossa equipe combina profunda experiência operacional com talento de engenharia de classe mundial.",
+  teamMember1Name: "CTO",
+  teamMember1Desc: "Fundador de 3 Startups, Especialista em IA e Blockchain",
+  teamMember2Name: "CEO",
+  teamMember2Desc: "Ex-CamGroupDefense, Technomeca, Crescent Hill Capital",
+  teamMember3Name: "CAO",
+  teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
+  // CTA
+  ctaTitle: "Pronto para dominar o espaço de batalha?",
+  ctaSubtitle: "Integre suas forças com a próxima geração de C2 e inteligência. Entre em contato para agendar uma demonstração privada para sua unidade.",
+  ctaButton: "Solicitar uma Demonstração",
+  // Footer
+  footerAllRightsReserved: "Todos os direitos reservados.",
+}; 

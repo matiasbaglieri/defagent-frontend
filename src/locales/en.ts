@@ -1,0 +1,55 @@
+export default {
+  // Header
+  navProblem: "Problem",
+  navSolution: "Solution",
+  navDemo: "Demo",
+  navTeam: "Team",
+  contactSales: "Contact Sales",
+  // Hero
+  heroTitle: "Fusing AI-driven logistics with real-time Earth intelligence",
+  heroSubtitle: "Unify siloed battlefield tools into a single OS. We empower joint forces with seamless \"Sense-Evaluate-Effect\" cycles to dominate the invisible battlespace.",
+  viewDemo: "View Demo",
+  requestAccess: "Request Access",
+  // Problem
+  problemTitle: "Critical Gaps in Multi-Domain Logistics",
+  problemSubtitle: "Today's battlefields are data-rich but wisdom-poor. Disconnected tools create dangerous delays and vulnerabilities.",
+  problem1Title: "Fragmented Data",
+  problem1Desc: "80% of DLA's suppliers are small businesses, causing supply chain vulnerabilities and siloed information across proprietary systems.",
+  problem2Title: "Delayed Threat Response",
+  problem2Desc: "Manual fuel logistics planning—'stubby pencil math'—slows crisis response by over 8 minutes, a critical delay in high-stakes scenarios.",
+  problem3Title: "Interoperability Failures",
+  problem3Desc: "Legacy systems block modern drone and sensor integration, compromising blue-force tracking and mission coordination.",
+  // Solution
+  solutionTitle: "TAK-X: The Unified Battlefield OS",
+  solutionSubtitle: "Our platform fuses real-time satellite intelligence with AI-powered logistics to deliver a decisive tactical advantage.",
+  solution1Title: "Real-Time Fusion",
+  solution1Desc: "Integrates FreeTAKServer's CoT protocol with SkyFi's satellite tasking for live geospatial overlays and unparalleled situational awareness.",
+  solution2Title: "AI Auto-Routing",
+  solution2Desc: "Predicts ambush zones and supply-chain risks using DLA models and hyperspectral terrain analysis to ensure asset safety and mission success.",
+  solution3Title: "3D Mission Visualization",
+  solution3Desc: "Renders NATO-compliant order-of-battle maps enriched with SkyFi's SAR and optical imagery for immersive mission planning and execution.",
+  // Demo
+  demoTitle: "Live Demo: Convoy Protection Workflow",
+  demoSubtitle: "See how DefAgent turns raw data into decisive action in seconds.",
+  demoStep1Title: "1. Sense",
+  demoStep1Desc: "A SkyFi SAR satellite detects critical bridge damage and automatically feeds a Cursor-on-Target (CoT) alert to FreeTAKServer.",
+  demoStep2Title: "2. Evaluate",
+  demoStep2Desc: "AI cross-references DLA fuel data and EW threat maps, instantly plotting a safer, optimized route for the convoy.",
+  demoStep3Title: "3. Effect",
+  demoStep3Desc: "A medevac request is sent via secure TAK-Chat while Close Air Support is coordinated over a live WinTAK 3D map.",
+  // Team
+  teamTitle: "Elite Operators & Open-Source Pioneers",
+  teamSubtitle: "Our team blends deep operational experience with world-class engineering talent.",
+  teamMember1Name: "CTO",
+  teamMember1Desc: "Founder x3 Startups, Expert in IA and Blockchain",
+  teamMember2Name: "CEO",
+  teamMember2Desc: "Former CamGroupDefense, Technomeca, Crescent Hill Capital",
+  teamMember3Name: "CAO",
+  teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
+  // CTA
+  ctaTitle: "Ready to Dominate the Battlespace?",
+  ctaSubtitle: "Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.",
+  ctaButton: "Request a Demo",
+  // Footer
+  footerAllRightsReserved: "All rights reserved.",
+}; 
