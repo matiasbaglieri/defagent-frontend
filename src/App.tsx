@@ -7,7 +7,7 @@ import Index from "./pages/Index";
 import Solutions from "./pages/Solutions";
 import Careers from "./pages/Careers";
 import Team from "./pages/Team";
-import Integrations from "./pages/Integrations";
+import Aws from "./pages/Aws";
 import SkyFi from "./pages/SkyFi";
 import FreeTAKServer from "./pages/FreeTAKServer";
 import NotFound from "./pages/NotFound";
@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/integrations" element={<Integrations />} />
+          <Route path="/aws" element={<Aws />} />
           <Route path="/skyfi" element={<SkyFi />} />
           <Route path="/freetakserver" element={<FreeTAKServer />} />
           <Route path="*" element={<NotFound />} />

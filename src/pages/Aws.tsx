@@ -4,7 +4,7 @@ import { Header } from "../components/landing/Header";
 import { Footer } from "../components/landing/Footer";
 import { Shield, Zap, Globe, Users, Target, CheckCircle, ArrowRight, Cpu, Server, Satellite } from 'lucide-react';
 
-export default function Integrations() {
+export default function Aws() {
   const { t } = useTranslation();
 
   return (

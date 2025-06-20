@@ -46,7 +46,7 @@ export const Header = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="w-48">
               <DropdownMenuItem asChild>
-                <Link to="/integrations" className="cursor-pointer">
+                <Link to="/aws" className="cursor-pointer">
                   {t("navAWS")}
                 </Link>
               </DropdownMenuItem>
