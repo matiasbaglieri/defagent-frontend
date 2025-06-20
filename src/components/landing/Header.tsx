@@ -49,6 +49,11 @@ export const Header = () => {
                   {t("navSolution")}
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <a href="/pitch_deck.pdf" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  {t("navWhitepaper")}
+                </a>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <DropdownMenu>

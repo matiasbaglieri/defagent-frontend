@@ -2,6 +2,7 @@ export default {
   // Header
   navProblem: "Problema",
   navSolution: "Solução",
+  navWhitepaper: "Whitepaper",
   navDemo: "Demonstração",
   navTeam: "Equipe",
   navCareers: "Carreiras",
