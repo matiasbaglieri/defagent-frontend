@@ -15,7 +15,6 @@ export const Header = () => {
   const location = useLocation();
 
   const navLinks = [
-    { id: "team", label: t("navTeam"), href: "/team" },
     { id: "careers", label: t("navCareers"), href: "/careers" },
   ];
 
@@ -27,15 +26,8 @@ export const Header = () => {
           <span className="font-bold text-lg">DefAgent</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {navLinks.map((link) => (
-            <Link 
-              key={link.id} 
-              to={link.href} 
-              className="transition-colors hover:text-primary"
-            >
-              {link.label}
-            </Link>
-          ))}
+          
+          
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="flex items-center space-x-1 transition-colors hover:text-primary">
@@ -86,6 +78,30 @@ export const Header = () => {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="flex items-center space-x-1 transition-colors hover:text-primary">
+                <span>{t("navAboutUs")}</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-48">
+              <DropdownMenuItem asChild>
+                <Link to="/team" className="cursor-pointer">
+                  {t("navTeam")}
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          {navLinks.map((link) => (
+            <Link 
+              key={link.id} 
+              to={link.href} 
+              className="transition-colors hover:text-primary"
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <LanguageSwitcher />

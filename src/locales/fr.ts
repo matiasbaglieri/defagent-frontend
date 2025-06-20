@@ -4,6 +4,7 @@ export default {
   navSolution: "Solution",
   navWhitepaper: "Livre Blanc",
   navSupport: "Support",
+  navAboutUs: "À Propos de Nous",
   navDemo: "Démo",
   navTeam: "Équipe",
   navCareers: "Carrières",
