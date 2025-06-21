@@ -1,6 +1,8 @@
-
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
+import InfoStrip from "@/components/landing/InfoStrip";
+import MissionStatement from "@/components/landing/MissionStatement";
+import CoreCapabilities from "@/components/landing/CoreCapabilities";
 import { Problem } from "@/components/landing/Problem";
 import { Solution } from "@/components/landing/Solution";
 import { Demo } from "@/components/landing/Demo";
@@ -16,6 +18,9 @@ const Index = () => {
       <Header />
       <main className="flex-1">
         <Hero />
+        <InfoStrip />
+        <MissionStatement />
+        <CoreCapabilities />
         <Problem />
         <Solution />
         <Demo />

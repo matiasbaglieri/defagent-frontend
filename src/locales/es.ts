@@ -25,4 +25,31 @@ export default {
   heroSubtitle: "Unifica herramientas de batalla fragmentadas en un solo SO. Empoderamos a las fuerzas conjuntas con ciclos \"Detectar-Evaluar-Efectuar\" sin fisuras para dominar el espacio de batalla invisible.",
   viewDemo: "Ver Demo",
   requestAccess: "Solicitar Acceso",
+  // Info Strip
+  infoStrip1: "Uniendo cadenas de suministro autónomas con señales de amenazas en tiempo real del dominio terrestre y cibernético",
+  infoStrip2: "Potenciando la logística de defensa a través de IA y detección persistente de amenazas globales",
+  infoStrip3: "Operacionalizando la logística de IA con escaneo adversario en tiempo real e inteligencia de intrusión de redes",
+  infoStrip4: "Aprovechando la coordinación logística predictiva con inteligencia persistente del seguimiento de amenazas basado en sensores globales",
+  // Mission Statement
+  missionTitle: "Nuestra Misión",
+  missionText: "Una plataforma de defensa integrada que combina la orquestación logística impulsada por IA con inteligencia cibernética y terrestre continua. Los datos de amenazas en tiempo real se recopilan a través de una matriz de sensores distribuidos globalmente, se analizan para identificar comportamientos adversarios y se fusionan con la conciencia geoespacial para respaldar una planificación de misiones resiliente, receptiva y segura.",
+  // Core Capabilities
+  coreCapabilitiesTitle: "Capacidades Principales",
+  capability1Title: "Logística Impulsada por IA",
+  capability1Desc: "Enrutamiento predictivo y autónomo de la cadena de suministro con adaptación a riesgos en tiempo real.",
+  capability2Title: "Inteligencia de Amenazas Cibernéticas",
+  capability2Desc: "Detección continua de escaneos, intrusiones y campañas emergentes utilizando sensores globales.",
+  capability3Title: "Engaño Cibernético Autónomo",
+  capability3Desc: "Despliegue de activos engañosos impulsado por IA para desorientar, ralentizar y exponer a los actores de amenazas.",
+  capability4Title: "Defensa contra APT",
+  capability4Desc: "Perfilado proactivo y desarticulación de adversarios sofisticados, patrocinados por estados o persistentes.",
+  capability5Title: "Detección de Amenazas Internas",
+  capability5Desc: "Análisis de comportamiento combinado con engaño para identificar accesos internos anómalos.",
+  capability6Title: "Mitigación de Ransomware",
+  capability6Desc: "Evaluación de riesgos en tiempo real, segmentación y activos de datos señuelo para aislar y neutralizar amenazas.",
+  capability7Title: "Inteligencia Terrestre en Tiempo Real",
+  capability7Desc: "Integración de datos ambientales y espaciales para el enrutamiento logístico, la evitación de amenazas físicas y la conciencia situacional operativa.",
+  // Problem
+  problemTitle: "Brechas Críticas en Logística Multi-Dominio",
+  problemSubtitle: "Los campos de batalla de hoy son ricos en datos pero pobres en sabiduría. Las herramientas desconectadas crean retrasos peligrosos y vulnerabilidades.",
 }
