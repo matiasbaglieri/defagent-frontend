@@ -65,7 +65,7 @@ export default {
   teamMember3Role: "CAO",
   teamMember3Desc: "Fondatrice de 2 startups. Experte juridique et de conformité avec spécialisation dans les environnements réglementés et les opérations critiques pour la mission.",
   // CTA
-  ctaTitle: "Prêt à dominer l'espace de bataille ?",
+  ctaTitle: "Prêt à redéfinir le champ de bataille cognitif avec un commandement intelligent et une déception cybernétique autonome ?",
   ctaSubtitle: "Intégrez vos forces à la nouvelle génération de C2 et de renseignement. Contactez-nous pour planifier une démonstration privée pour votre unité.",
   ctaButton: "Demander une démo",
   // Footer

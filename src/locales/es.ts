@@ -93,4 +93,5 @@ export default {
   contactEmailLabel: "Correo Oficina del Programa",
   footerClassified: "Clasificado: FOUO",
   footerDistribution: "Distribución: Solo Agencias Gubernamentales",
+  ctaTitle: "¿Listo para redefinir el campo de batalla cognitivo con mando inteligente y engaño cibernético autónomo?",
 }

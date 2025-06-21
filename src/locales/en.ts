@@ -87,7 +87,7 @@ export default {
   teamMember3Name: "CAO",
   teamMember3Desc: "Founder 2x Startups, Legal Compliance in ForMe",
   // CTA
-  ctaTitle: "Ready to Dominate the Battlespace?",
+  ctaTitle: "Ready to Redefine the Cognitive Battlespace with Intelligent Command and Autonomous Cyber Deception",
   ctaSubtitle: "Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.",
   ctaButton: "Request a Demo",
   // Footer

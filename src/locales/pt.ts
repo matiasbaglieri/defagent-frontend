@@ -89,7 +89,7 @@ export default {
   teamMember3Role: "CAO",
   teamMember3Desc: "Fundadora de 2 startups. Especialista legal e de conformidade com especialização em ambientes regulamentados e operações críticas para a missão.",
   // CTA
-  ctaTitle: "Pronto para dominar o espaço de batalha?",
+  ctaTitle: "Pronto para redefinir o campo de batalha cognitivo com comando inteligente e engano cibernético autônomo?",
   ctaSubtitle: "Integre suas forças com a próxima geração de C2 e inteligência. Entre em contato para agendar uma demonstração privada para sua unidade.",
   ctaButton: "Solicitar uma Demonstração",
   // Footer
