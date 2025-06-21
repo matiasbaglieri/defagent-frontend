@@ -18,6 +18,7 @@ export default {
   navNewsMedia: "Actualités et Médias",
   navCompliance: "Conformité",
   navBlog: "Blog",
+  navOnePager:"One Pager",
   contactSales: "Contacter les Ventes",
   // Hero
   heroTitle: "Fusionner la logistique basée sur l'IA avec l'intelligence terrestre en temps réel",
@@ -488,5 +489,48 @@ export default {
   "cookie_modal_analytics_p": "Nous aident à comprendre comment les visiteurs interagissent avec notre site web.",
   "cookie_modal_marketing_title": "Cookies de Marketing",
   "cookie_modal_marketing_p": "Utilisés pour diffuser des publicités pertinentes et mesurer leur performance.",
-  "cookie_modal_save": "Enregistrer les Préférences"
-};
+  "cookie_modal_save": "Enregistrer les Préférences",
+
+  // One Pager
+  onePagerTitle: "Plateforme intégrée de logistique IA et d'intelligence des menaces cyber-terrestres",
+  onePagerSubtitle: "Logistique adaptative + défense cybernétique autonome pour la résilience de la sécurité nationale",
+  
+  // Executive Summary
+  executiveSummaryTitle: "Résumé Exécutif",
+  executiveSummaryText: "La plateforme DefAgent fusionne la logistique optimisée par l'IA, l'intelligence terrestre en temps réel et la détection autonome des menaces cybernétiques pour renforcer l'infrastructure nationale, les chaînes d'approvisionnement critiques et les capacités opérationnelles gouvernementales. S'appuyant sur un réseau mondialement distribué de capteurs cybernétiques et de systèmes avancés de déception pilotés par l'IA, cette solution offre une défense persistante contre les menaces persistantes avancées (APT), les menaces internes et les ransomwares tout en coordonnant dynamiquement la logistique physique et numérique en fonction des signaux environnementaux et de menace en temps réel.",
+  // Key Capabilities
+  keyCapabilitiesTitle: "Capacités Clés",
+  keyCapability1Title: "Optimisation Logistique Pilotée par l'IA",
+  keyCapability1Text: "Orchestration autonome des chaînes d'approvisionnement et de la logistique critique basée sur les données de menace en temps réel et les conditions environnementales.",
+  keyCapability2Title: "Réseau Mondial de Détection des Menaces",
+  keyCapability2Text: "La télémétrie continue des capteurs cybernétiques distribués détecte l'activité de reconnaissance, le scanning, les mouvements latéraux et les tentatives d'exploitation de failles zero-day.",
+  keyCapability3Title: "Déception Cybernétique Autonome",
+  keyCapability3Text: "Déploie des leurres, honeypots et faux actifs en temps réel pour piéger, étudier et dégrader les acteurs de la menace—créant de l'incertitude pour les adversaires tout en permettant l'alerte précoce et l'attribution.",
+  keyCapability4Title: "Intégration de l'Intelligence Terrestre en Temps Réel",
+  keyCapability4Text: "Fusionne l'intelligence satellitaire, IoT et géospatiale pour la planification opérationnelle, le routage tenant compte des catastrophes, la résilience des infrastructures et l'évitement des menaces physiques.",
+  keyCapability5Title: "Défense contre les Menaces Internes et les Ransomwares",
+  keyCapability5Text: "L'analyse comportementale et la déception dynamique détectent les initiés malveillants et isolent les épidémies de ransomware avant que les dommages ne se propagent.",
+  keyCapability6Title: "Résilience Opérationnelle Multi-Domaine",
+  keyCapability6Text: "Harmonise la logistique, la posture cybernétique et la conscience situationnelle à travers les missions critiques, y compris la réponse aux catastrophes, la protection des infrastructures, les opérations frontalières et la cybersécurité.",
+  // Strategic Impact
+  strategicImpactTitle: "Impact Stratégique pour le Département de la Sécurité Intérieure",
+  strategicImpact1Title: "Résilience par Conception",
+  strategicImpact1Text: "Intègre l'intelligence des menaces cybernétiques et physiques dans la prise de décision opérationnelle pour une agilité de sécurité nationale en temps réel.",
+  strategicImpact2Title: "Déception comme Défense",
+  strategicImpact2Text: "Réduit le taux de succès des attaquants et impose un coût asymétrique aux adversaires grâce à des cadres de déception cybernétique autonomes.",
+  strategicImpact3Title: "Renforcement de la Chaîne d'Approvisionnement",
+  strategicImpact3Text: "Protège les pipelines logistiques d'infrastructure nationale contre la perturbation numérique et le risque physique.",
+  strategicImpact4Title: "Conscience de Domaine Conjoint",
+  strategicImpact4Text: "Soutient la collaboration inter-agences avec une colonne vertébrale d'intelligence partagée couvrant les écosystèmes cyber, géospatiaux et logistiques.",
+  // Target Applications
+  targetApplicationsTitle: "Applications Cibles",
+  targetApp1: "Centre National d'Intégration de la Cybersécurité et des Communications (NCCIC)",
+  targetApp2: "Agence de Cybersécurité et de Sécurité des Infrastructures (CISA)",
+  targetApp3: "Agence Fédérale de Gestion des Urgences (FEMA)",
+  targetApp4: "Douanes et Protection des Frontières (CBP)",
+  targetApp5: "Direction des Sciences et Technologies (S&T)",
+  targetApp6: "Enquêtes sur la Sécurité Intérieure (HSI)",
+
+  // Contact
+  contactTitle: "Contact pour Collaboration ou Déploiement Pilote",
+}

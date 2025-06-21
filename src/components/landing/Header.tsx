@@ -61,6 +61,7 @@ export const Header = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem asChild><Link to="/solutions">{t("navSolution")}</Link></DropdownMenuItem>
+                <DropdownMenuItem asChild><Link to="/one-pager">{t("navOnePager")}</Link></DropdownMenuItem>
                 <DropdownMenuItem asChild><a href="/pitch_deck.pdf" target="_blank" rel="noopener noreferrer">{t("navWhitepaper")}</a></DropdownMenuItem>
                 <DropdownMenuItem asChild><a href="https://api.whatsapp.com/send?text=i%20need%20support&phone=5491164616122" target="_blank" rel="noopener noreferrer">{t("navSupport")}</a></DropdownMenuItem>
               </DropdownMenuContent>
@@ -164,6 +165,13 @@ export const Header = () => {
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         {t("navSolution")}
+                      </Link>
+                      <Link 
+                        to="/one-pager" 
+                        className="block px-3 py-2 rounded hover:bg-gray-800 text-gray-300 hover:text-white" 
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        {t("navOnePager")}
                       </Link>
                       <a 
                         href="/pitch_deck.pdf" 

@@ -19,6 +19,7 @@ export default {
   navPartnersAlliances: "Partners & Alliances",
   navCompliance: "Compliance",
   navBlog: "Blog",
+  navOnePager:"One Pager",
   contactSales: "Contact Sales",
   // Hero
   heroTitle: "Fusing autonomous logistics systems with live intelligence from Earth observation and cyber sensor networks",
@@ -413,7 +414,7 @@ export default {
   "terms_contact_email": "Email",
   "terms_contact_website": "Website",
   "terms_s1_title": "1. Agreement Acceptance",
-  "terms_s1_p1": "By accessing or using DefAgent Inc.'s (\"DefAgent,\" \"we,\" \"us,\" or \"our\") AI-powered defense and enterprise automation services (\"Services\"), you agree to be bound by these Terms of Service (\"Terms\"). If you are entering into these Terms on behalf of an organization, you represent that you have the authority to bind that entity.",
+  "terms_s1_p1": "By accessing or using DefAgent Inc.'s (\"Defagent,\" \"we,\" \"us,\" or \"our\") AI-powered defense and enterprise automation services (\"Services\"), you agree to be bound by these Terms of Service (\"Terms\"). If you are entering into these Terms on behalf of an organization, you represent that you have the authority to bind that entity.",
   "terms_s1_conditions_title": "Key Conditions:",
   "terms_s1_l1": "You must be at least 18 years old to use our Services",
   "terms_s1_l2": "Government and defense users must have proper authorization",
@@ -517,5 +518,51 @@ export default {
   "cookie_modal_analytics_p": "Help us understand how visitors interact with our website.",
   "cookie_modal_marketing_title": "Marketing Cookies",
   "cookie_modal_marketing_p": "Used to deliver relevant ads and measure ad performance.",
-  "cookie_modal_save": "Save Preferences"
+  "cookie_modal_save": "Save Preferences",
+
+  // One Pager
+  onePagerTitle: "Integrated AI Logistics and Cyber-Earth Threat Intelligence Platform",
+  onePagerSubtitle: "Adaptive Logistics + Autonomous Cyber Defense for National Security Resilience",
+  
+  // Executive Summary
+  executiveSummaryTitle: "Executive Summary",
+  executiveSummaryText: "DefAgent platform fuses AI-enabled logistics, real-time Earth intelligence, and autonomous cyber threat detection to strengthen national infrastructure, mission-critical supply chains, and government operational capabilities. Leveraging a globally distributed network of cyber sensors and advanced AI-powered deception systems, this solution delivers persistent defense against Advanced Persistent Threats (APTs), insider threats, and ransomware while dynamically coordinating physical and digital logistics based on live environmental and threat signals.",
+
+  // Key Capabilities
+  keyCapabilitiesTitle: "Key Capabilities",
+  keyCapability1Title: "AI-Driven Logistics Optimization",
+  keyCapability1Text: "Autonomous orchestration of supply chains and mission-critical logistics based on real-time threat data and environmental conditions.",
+  keyCapability2Title: "Global Threat Sensing Network",
+  keyCapability2Text: "Continuous telemetry from distributed cyber sensors detects reconnaissance activity, scanning, lateral movement, and zero-day exploitation attempts.",
+  keyCapability3Title: "Autonomous Cyber Deception",
+  keyCapability3Text: "Deploys decoys, honeypots, and false assets in real time to trap, study, and degrade threat actors—creating uncertainty for adversaries while enabling early warning and attribution.",
+  keyCapability4Title: "Real-Time Earth Intelligence Integration",
+  keyCapability4Text: "Fuses satellite, IoT, and geospatial intelligence for operational planning, disaster-aware routing, infrastructure resilience, and physical threat avoidance.",
+  keyCapability5Title: "Insider Threat and Ransomware Defense",
+  keyCapability5Text: "Behavioral analytics and dynamic deception detect malicious insiders and isolate ransomware outbreaks before damage propagates.",
+  keyCapability6Title: "Operational Resilience Across Domains",
+  keyCapability6Text: "Harmonizes logistics, cyber posture, and situational awareness across critical missions, including disaster response, infrastructure protection, border operations, and cybersecurity.",
+
+  // Strategic Impact
+  strategicImpactTitle: "Strategic Impact for Department Homeland Security",
+  strategicImpact1Title: "Resilience by Design",
+  strategicImpact1Text: "Integrates cyber and physical threat intelligence into operational decision-making for real-time national security agility.",
+  strategicImpact2Title: "Deception-as-Defense",
+  strategicImpact2Text: "Lowers attacker success rates and imposes asymmetric cost on adversaries using autonomous cyber deception frameworks.",
+  strategicImpact3Title: "Supply Chain Hardening",
+  strategicImpact3Text: "Protects national infrastructure logistics pipelines from digital disruption and physical risk.",
+  strategicImpact4Title: "Joint Domain Awareness",
+  strategicImpact4Text: "Supports cross-agency collaboration with a shared intelligence backbone spanning cyber, geospatial, and logistics ecosystems.",
+
+  // Target Applications
+  targetApplicationsTitle: "Target Applications",
+  targetApp1: "National Cybersecurity & Communications Integration Center (NCCIC)",
+  targetApp2: "Cybersecurity and Infrastructure Security Agency (CISA)",
+  targetApp3: "Federal Emergency Management Agency (FEMA)",
+  targetApp4: "Customs and Border Protection (CBP)",
+  targetApp5: "Science & Technology Directorate (S&T)",
+  targetApp6: "Homeland Security Investigations (HSI)",
+
+  // Contact
+  contactTitle: "Contact for Collaboration or Pilot Deployment",
 };
