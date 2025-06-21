@@ -565,4 +565,8 @@ export default {
 
   // Contact
   contactTitle: "Contact for Collaboration or Pilot Deployment",
+  contactDescription: "Ready to deploy DefAgent for your organization? Contact our program office to schedule a demonstration.",
+  contactEmailLabel: "Email Program Office",
+  footerClassified: "Classified: FOUO",
+  footerDistribution: "Distribution: Government Agencies Only",
 };

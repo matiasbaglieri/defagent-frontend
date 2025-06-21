@@ -89,4 +89,8 @@ export default {
   targetApp6: "Investigaciones de Seguridad Nacional (HSI)",
   // Contact
   contactTitle: "Contacto para Colaboración o Implementación Piloto",
+  contactDescription: "¿Listo para implementar DefAgent en su organización? Contacte a nuestra oficina de programa para agendar una demostración.",
+  contactEmailLabel: "Correo Oficina del Programa",
+  footerClassified: "Clasificado: FOUO",
+  footerDistribution: "Distribución: Solo Agencias Gubernamentales",
 }

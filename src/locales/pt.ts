@@ -94,6 +94,8 @@ export default {
   ctaButton: "Solicitar uma Demonstração",
   // Footer
   footerAllRightsReserved: "Todos os direitos reservados. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
+  footerClassified: "Classificado: FOUO",
+  footerDistribution: "Distribuição: Apenas Agências Governamentais",
   // Solutions Page
   solutionsPageTitle: "Plataforma Tática IT DefAgent",
   solutionsPageSubtitle: "Soluções de defesa abrangentes para guerra moderna",
@@ -538,4 +540,6 @@ export default {
   targetApp5: "Diretoria de Ciência e Tecnologia (S&T)",
   targetApp6: "Investigações de Segurança Interna (HSI)",
   contactTitle: "Contato para Colaboração ou Implantação Piloto",
+  contactDescription: "Pronto para implantar o DefAgent em sua organização? Entre em contato com nosso escritório de programa para agendar uma demonstração.",
+  contactEmailLabel: "Email do Escritório do Programa",
 };

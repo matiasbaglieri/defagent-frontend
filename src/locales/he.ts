@@ -94,6 +94,8 @@ export default {
   ctaButton: "בקש הדגמה",
   // Footer
   footerAllRightsReserved: " כל הזכויות שמורות. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
+  footerClassified: "מסווג: FOUO",
+  footerDistribution: "הפצה: לסוכנויות ממשלתיות בלבד",
   // Solutions Page
   solutionsPageTitle: "פלטפורמת IT טקטית DefAgent",
   solutionsPageSubtitle: "פתרונות הגנה מקיפים למלחמה מודרנית",
@@ -231,7 +233,7 @@ export default {
   eventsBlackHatDesc: "צוות המו\"פ של DefAgent יציג מחקר על רשתות טקטיות מוצפנות וכלי תגובה לאיומים ברמת שדה הקרב.",
   eventsDefConTitle: "DefCon 33 – CovertOps Village",
   eventsDefConDate: "9–11 באוגוסט 2025",
-  eventsDefConLocation: "לאס וגאס, נבדה, ארה\"ב",
+  eventsDefConLocation: "לאס וג'ס, נבדה, ארה\"ב",
   eventsDefConDesc: "השתתף בהדגמה חיה של אינטגרציית TAK + DefAgent בתוך כפר CovertOps. התנסות עם מכשירים מוצפנים וזרימות עבודה מבוססות AI.",
   eventsAIDefenseTitle: "AI לוועידת הגנה 2025",
   eventsAIDefenseDate: "21–23 באוקטובר 2025",
@@ -308,6 +310,8 @@ export default {
   blogPost4Date: "2 באפריל 2025",
   blogPost4Summary: "גלה כיצד הפלטפורמה שלנו סיפקה הגנת סייבר אוטונומית בזמן אמת לנכס לאומי, הפועל בסביבה שנויה במחלוקת ומוכחשת GPS.",
   blogPost4Link: "https://defagent.ai/blog/gotak-deployment-inside",
+  contactDescription: "מוכן לפרוס את DefAgent בארגונך? צור קשר עם משרד התוכנית שלנו לתיאום הדגמה.",
+  contactEmailLabel: "אימייל משרד התוכנית",
   privacy_footer_next_review: "בדיקה מתוזמנת הבאה",
   privacy_footer_next_review_value: "20 בדצמבר 2025",
   privacy_footer_p: "*מדיניות פרטיות זו נכנסת לתוקף בתאריך המצוין לעיל וחלה על כל המידע שנאסף על ידי DefAgent Inc. בתאריך זה או לאחריו.*",

@@ -229,7 +229,7 @@ export default function DefAgentOnePager() {
                 {t("contactTitle")}
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-                Ready to deploy DefAgent for your organization? Contact our program office to schedule a demonstration.
+                {t("contactDescription")}
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button size="lg" asChild>
@@ -240,7 +240,7 @@ export default function DefAgentOnePager() {
                 <Button size="lg" variant="outline" asChild>
                   <a href="mailto:matias@defagent.io">
                     <Mail className="w-4 h-4 mr-2" />
-                    Email Program Office
+                    {t("contactEmailLabel")}
                   </a>
                 </Button>
               </div>
@@ -252,9 +252,9 @@ export default function DefAgentOnePager() {
         <div className="bg-muted border-t border-border py-6">
           <div className="container text-center">
             <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 text-sm text-muted-foreground">
-              <span className="font-semibold">Classified: FOUO</span>
+              <span className="font-semibold">{t("footerClassified")}</span>
               <span>|</span>
-              <span className="font-semibold">Distribution: Government Agencies Only</span>
+              <span className="font-semibold">{t("footerDistribution")}</span>
             </div>
           </div>
         </div>
