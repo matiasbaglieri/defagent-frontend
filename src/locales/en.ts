@@ -90,6 +90,11 @@ export default {
   ctaTitle: "Ready to Redefine the Cognitive Battlespace with Intelligent Command and Autonomous Cyber Deception",
   ctaSubtitle: "Integrate your forces with the next generation of C2 and intelligence. Get in touch to schedule a private demonstration for your unit.",
   ctaButton: "Request a Demo",
+  ctaBullets: [
+    "From Awareness to Advantage: Fuse Command and Deception for Asymmetric Cyber Superiority",
+    "Own the Initiative: Autonomous Deception as a Strategic Layer in Command and Control",
+    "Turn Adversaries into Assets: Autonomous Cyber Deception Integrated into Joint C2"
+  ],
   // Footer
   footerAllRightsReserved: "All rights reserved. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
   // Solutions Page
