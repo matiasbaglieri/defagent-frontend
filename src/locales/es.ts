@@ -95,8 +95,8 @@ export default {
   footerDistribution: "Distribución: Solo Agencias Gubernamentales",
   ctaTitle: "¿Listo para redefinir el campo de batalla cognitivo con mando inteligente y engaño cibernético autónomo?",
   ctaBullets: [
-    "De la Conciencia a la Ventaja: Fusiona Mando y Engaño para una Superioridad Cibernética Asimétrica",
-    "Toma la Iniciativa: Engaño Autónomo como Capa Estratégica en Mando y Control",
-    "Convierte Adversarios en Activos: Engaño Cibernético Autónomo Integrado en C2 Conjunto"
+    "De la conciencia a la ventaja: fusiona mando y engaño para una superioridad cibernética asimétrica",
+    "Toma la iniciativa: engaño autónomo como capa estratégica en mando y control",
+    "Convierte adversarios en activos: engaño cibernético autónomo integrado en C2 conjunto"
   ],
 }

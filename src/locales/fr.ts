@@ -69,9 +69,9 @@ export default {
   ctaSubtitle: "Intégrez vos forces à la nouvelle génération de C2 et de renseignement. Contactez-nous pour planifier une démonstration privée pour votre unité.",
   ctaButton: "Demander une démo",
   ctaBullets: [
-    "De la Conscience à l'Avantage : Fusionnez Commandement et Tromperie pour une Supériorité Cyber Asymétrique",
-    "Prenez l'Initiative : Tromperie Autonome comme Couche Stratégique dans le Commandement et le Contrôle",
-    "Transformez les Adversaires en Atouts : Tromperie Cyber Autonome Intégrée au C2 Interarmées"
+    "De la conscience à l'avantage : fusionnez commandement et déception pour une supériorité cybernétique asymétrique",
+    "Prenez l'initiative : la déception autonome comme couche stratégique dans le commandement et le contrôle",
+    "Transformez les adversaires en atouts : déception cybernétique autonome intégrée au C2 conjoint"
   ],
   // Footer
   footerAllRightsReserved: "Tous droits réservés. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",

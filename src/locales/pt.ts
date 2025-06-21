@@ -93,9 +93,9 @@ export default {
   ctaSubtitle: "Integre suas forças com a próxima geração de C2 e inteligência. Entre em contato para agendar uma demonstração privada para sua unidade.",
   ctaButton: "Solicitar uma Demonstração",
   ctaBullets: [
-    "Da Consciência à Vantagem: Una Comando e Engano para Superioridade Cibernética Assimétrica",
-    "Assuma a Iniciativa: Engano Autônomo como Camada Estratégica no Comando e Controle",
-    "Transforme Adversários em Ativos: Engano Cibernético Autônomo Integrado ao C2 Conjunto"
+    "Da consciência à vantagem: una comando e engano para superioridade cibernética assimétrica",
+    "Assuma a iniciativa: engano autônomo como camada estratégica no comando e controle",
+    "Transforme adversários em ativos: engano cibernético autônomo integrado ao C2 conjunto"
   ],
   // Footer
   footerAllRightsReserved: "Todos os direitos reservados. 5900 Balcones Drive, Suite 100, Austin, Texas 78731",
