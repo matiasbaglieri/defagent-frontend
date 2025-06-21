@@ -21,8 +21,8 @@ export default {
   navBlog: "Blog",
   contactSales: "Contact Sales",
   // Hero
-  heroTitle: "Fusing AI-driven logistics with real-time Earth intelligence",
-  heroSubtitle: "Unify siloed battlefield tools into a single OS. We empower joint forces with seamless \"Sense-Evaluate-Effect\" cycles to dominate the invisible battlespace.",
+  heroTitle: "Fusing autonomous logistics systems with live intelligence from Earth observation and cyber sensor networks",
+  heroSubtitle: 'Unify siloed battlefield tools into a single OS. We empower joint forces with seamless "Sense-Evaluate-Effect" cycles to achieve decision superiority.',
   viewDemo: "View Demo",
   requestAccess: "Request Access",
   // Problem
@@ -477,7 +477,6 @@ export default {
   "cookie_s8_email": "Email",
   "cookie_s8_phone": "Phone",
   "cookie_policy_footer_last_updated": "Last Updated",
-
   "cookie_banner_title": "Your Privacy Matters",
   "cookie_banner_p1_1": "We use cookies to enhance your experience, analyze traffic, and serve targeted ads. By clicking \"Accept All\", you consent to all cookies. You can manage your preferences in our ",
   "cookie_banner_p1_link": "Cookie Policy",

@@ -20,7 +20,7 @@ export default {
   navBlog: "Blog",
   contactSales: "Contatar Vendas",
   // Hero
-  heroTitle: "Fundindo logística orientada por IA com inteligência terrestre em tempo real",
+  heroTitle: "Fundindo sistemas de logística autônomos com inteligência ao vivo de observação da Terra e redes de sensores cibernéticos.",
   heroSubtitle: "Unifique ferramentas de campo de batalha isoladas em um único SO. Capacitamos forças conjuntas com ciclos contínuos de \"Sentir-Avaliar-Efetuar\" para dominar o espaço de batalha invisível.",
   viewDemo: "Ver Demonstração",
   requestAccess: "Solicitar Acesso",
